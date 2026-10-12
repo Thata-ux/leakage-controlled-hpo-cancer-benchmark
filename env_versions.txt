@@ -1,0 +1,10 @@
+Python 3.13.16
+CPU: x86_64, 2 vCPU
+RAM: 12.7 GB
+Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+sklearn 1.6.1
+imblearn 0.14.2
+xgboost 3.4.1
+lightgbm 4.6.0
+skopt 0.10.2
+shap 0.52.0

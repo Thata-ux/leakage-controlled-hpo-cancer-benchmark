@@ -1,0 +1,13 @@
+Dataset,Model,MeanRank_Bayes,MeanRank_Grid,MeanRank_No-Tuning,MeanRank_Random
+BreastCancer,LightGBM,2.25,2.5,3.0,2.25
+BreastCancer,RandomForest,2.6,2.45,2.5,2.45
+BreastCancer,SVM,2.8,2.55,1.9,2.75
+BreastCancer,XGBoost,2.0,2.85,2.75,2.4
+CervicalCancer,LightGBM,2.3,2.2,3.2,2.3
+CervicalCancer,RandomForest,2.15,1.6,3.6,2.65
+CervicalCancer,SVM,1.85,2.8,3.7,1.65
+CervicalCancer,XGBoost,2.6,1.9,3.55,1.95
+Lung Cancer,LightGBM,2.65,2.35,2.6,2.4
+Lung Cancer,RandomForest,2.9,2.25,2.4,2.45
+Lung Cancer,SVM,2.45,2.5,2.4,2.65
+Lung Cancer,XGBoost,2.4,2.5,2.55,2.55

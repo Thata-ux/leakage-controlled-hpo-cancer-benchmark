@@ -1,0 +1,13 @@
+Dataset,Model,Friedman-stat,p-value,Kesimpulan
+Lung Cancer,XGBoost,0.1169,0.9897,✗ Tidak signifikan
+Lung Cancer,RandomForest,2.1692,0.538,✗ Tidak signifikan
+Lung Cancer,SVM,0.2838,0.963,✗ Tidak signifikan
+Lung Cancer,LightGBM,0.65,0.8849,✗ Tidak signifikan
+BreastCancer,XGBoost,3.9851,0.2631,✗ Tidak signifikan
+BreastCancer,RandomForest,0.1731,0.9818,✗ Tidak signifikan
+BreastCancer,SVM,5.2373,0.1552,✗ Tidak signifikan
+BreastCancer,LightGBM,3.4615,0.3258,✗ Tidak signifikan
+CervicalCancer,XGBoost,11.9663,0.0075,✓ SIGNIFIKAN
+CervicalCancer,RandomForest,16.2375,0.001,✓ SIGNIFIKAN
+CervicalCancer,SVM,18.8824,0.0003,✓ SIGNIFIKAN
+CervicalCancer,LightGBM,4.7711,0.1893,✗ Tidak signifikan

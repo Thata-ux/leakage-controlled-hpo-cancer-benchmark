@@ -1,0 +1,49 @@
+Dataset,Model,Metric,Mean_NT,Best_Tuner,Mean_Best,Gain_vs_NT,Friedman,p,Significant
+Lung Cancer,XGBoost,f1_macro,0.8013,Random,0.8027,0.0013,0.1169,0.9897,False
+Lung Cancer,XGBoost,bal_acc,0.8062,Random,0.8156,0.0094,0.1169,0.9897,False
+Lung Cancer,XGBoost,mcc,0.6168,No-Tuning,0.6168,0.0,0.1169,0.9897,False
+Lung Cancer,XGBoost,recall_min,0.675,Random,0.7,0.025,1.2941,0.7305,False
+Lung Cancer,RandomForest,f1_macro,0.8509,No-Tuning,0.8509,0.0,2.1692,0.538,False
+Lung Cancer,RandomForest,bal_acc,0.8625,No-Tuning,0.8625,0.0,2.1692,0.538,False
+Lung Cancer,RandomForest,mcc,0.7095,No-Tuning,0.7095,0.0,2.1692,0.538,False
+Lung Cancer,RandomForest,recall_min,0.775,No-Tuning,0.775,0.0,4.2,0.2407,False
+Lung Cancer,SVM,f1_macro,0.8306,No-Tuning,0.8306,0.0,0.2838,0.963,False
+Lung Cancer,SVM,bal_acc,0.8531,Grid,0.8573,0.0042,0.527,0.9129,False
+Lung Cancer,SVM,mcc,0.6726,No-Tuning,0.6726,0.0,0.2838,0.963,False
+Lung Cancer,SVM,recall_min,0.775,Bayes,0.8,0.025,1.125,0.771,False
+Lung Cancer,LightGBM,f1_macro,0.7976,Grid,0.7988,0.0011,1.05,0.7892,False
+Lung Cancer,LightGBM,bal_acc,0.8062,No-Tuning,0.8062,0.0,0.15,0.9852,False
+Lung Cancer,LightGBM,mcc,0.6106,No-Tuning,0.6106,0.0,1.05,0.7892,False
+Lung Cancer,LightGBM,recall_min,0.675,No-Tuning,0.675,0.0,0.1765,0.9813,False
+BreastCancer,XGBoost,f1_macro,0.967,Bayes,0.9727,0.0057,3.9851,0.2631,False
+BreastCancer,XGBoost,bal_acc,0.9668,Bayes,0.9734,0.0066,3.9851,0.2631,False
+BreastCancer,XGBoost,mcc,0.9346,Bayes,0.9458,0.0112,3.9851,0.2631,False
+BreastCancer,XGBoost,recall_min,0.9571,Bayes,0.969,0.0119,8.3617,0.0391,True
+BreastCancer,RandomForest,f1_macro,0.9586,Grid,0.9604,0.0017,0.1731,0.9818,False
+BreastCancer,RandomForest,bal_acc,0.9605,No-Tuning,0.9605,0.0,0.1731,0.9818,False
+BreastCancer,RandomForest,mcc,0.918,Grid,0.9212,0.0032,0.1731,0.9818,False
+BreastCancer,RandomForest,recall_min,0.9571,No-Tuning,0.9571,0.0,4.3846,0.2228,False
+BreastCancer,SVM,f1_macro,0.9745,No-Tuning,0.9745,0.0,5.2373,0.1552,False
+BreastCancer,SVM,bal_acc,0.9738,No-Tuning,0.9738,0.0,5.2373,0.1552,False
+BreastCancer,SVM,mcc,0.9494,No-Tuning,0.9494,0.0,1.5763,0.6648,False
+BreastCancer,SVM,recall_min,0.9643,No-Tuning,0.9643,0.0,1.5366,0.6739,False
+BreastCancer,LightGBM,f1_macro,0.965,Random,0.9707,0.0057,3.4615,0.3258,False
+BreastCancer,LightGBM,bal_acc,0.9629,Random,0.9695,0.0066,3.4615,0.3258,False
+BreastCancer,LightGBM,mcc,0.9306,Random,0.9419,0.0113,3.4615,0.3258,False
+BreastCancer,LightGBM,recall_min,0.9452,Random,0.9571,0.0119,1.5,0.6823,False
+CervicalCancer,XGBoost,f1_macro,0.7807,Grid,0.8443,0.0636,20.3933,0.0001,True
+CervicalCancer,XGBoost,bal_acc,0.7849,Grid,0.8957,0.1108,20.3933,0.0001,True
+CervicalCancer,XGBoost,mcc,0.5691,Grid,0.7029,0.1338,20.3933,0.0001,True
+CervicalCancer,XGBoost,recall_min,0.6,Grid,0.8273,0.2273,22.2308,0.0001,True
+CervicalCancer,RandomForest,f1_macro,0.811,Grid,0.862,0.051,16.2375,0.001,True
+CervicalCancer,RandomForest,bal_acc,0.8184,Grid,0.9034,0.0851,16.2375,0.001,True
+CervicalCancer,RandomForest,mcc,0.6288,Grid,0.7331,0.1043,16.2375,0.001,True
+CervicalCancer,RandomForest,recall_min,0.6636,Grid,0.8364,0.1727,18.1169,0.0004,True
+CervicalCancer,SVM,f1_macro,0.7615,Random,0.8372,0.0758,26.5059,0.0,True
+CervicalCancer,SVM,bal_acc,0.7804,Random,0.9182,0.1377,26.5059,0.0,True
+CervicalCancer,SVM,mcc,0.5293,Random,0.6963,0.167,26.5059,0.0,True
+CervicalCancer,SVM,recall_min,0.6,Random,0.8818,0.2818,25.7848,0.0,True
+CervicalCancer,LightGBM,f1_macro,0.7839,Grid,0.8376,0.0538,11.7108,0.0084,True
+CervicalCancer,LightGBM,bal_acc,0.7934,Grid,0.9025,0.1091,16.3373,0.001,True
+CervicalCancer,LightGBM,mcc,0.573,Grid,0.6943,0.1213,16.3373,0.001,True
+CervicalCancer,LightGBM,recall_min,0.6182,Grid,0.8455,0.2273,18.1286,0.0004,True

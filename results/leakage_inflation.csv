@@ -1,0 +1,481 @@
+Metric,Protocol,Dataset,Model,Tuner,Mean_Inflation,Wilcoxon_p
+f1,Leak-PreSplit,BreastCancer,LightGBM,Bayes,-0.0005268080981746138,0.826171875
+f1,Leak-PreSplit,BreastCancer,LightGBM,Grid,0.005037507336371627,0.4921875
+f1,Leak-PreSplit,BreastCancer,LightGBM,No-Tuning,0.0017694709329349246,0.625
+f1,Leak-PreSplit,BreastCancer,LightGBM,Random,-0.00562647116485071,0.275390625
+f1,Leak-PreSplit,BreastCancer,RandomForest,Bayes,0.0022233144587062046,1.0
+f1,Leak-PreSplit,BreastCancer,RandomForest,Grid,0.0018999734483664322,0.921875
+f1,Leak-PreSplit,BreastCancer,RandomForest,No-Tuning,0.003591364925758178,0.431640625
+f1,Leak-PreSplit,BreastCancer,RandomForest,Random,0.002749792238355875,0.6953125
+f1,Leak-PreSplit,BreastCancer,SVM,Bayes,0.008025407799412843,0.013671875
+f1,Leak-PreSplit,BreastCancer,SVM,Grid,0.007504265937827192,0.02734375
+f1,Leak-PreSplit,BreastCancer,SVM,No-Tuning,0.0013290605450305471,0.48046875
+f1,Leak-PreSplit,BreastCancer,SVM,Random,0.007509299811829284,0.02734375
+f1,Leak-PreSplit,BreastCancer,XGBoost,Bayes,-0.0032437393753038334,0.431640625
+f1,Leak-PreSplit,BreastCancer,XGBoost,Grid,-0.0009313385260543039,0.921875
+f1,Leak-PreSplit,BreastCancer,XGBoost,No-Tuning,0.002738798012845911,0.130859375
+f1,Leak-PreSplit,BreastCancer,XGBoost,Random,-0.000568612169010907,0.921875
+f1,Leak-PreSplit,CervicalCancer,LightGBM,Bayes,0.018856137998857013,0.00390625
+f1,Leak-PreSplit,CervicalCancer,LightGBM,Grid,0.01913978289660596,0.013671875
+f1,Leak-PreSplit,CervicalCancer,LightGBM,No-Tuning,0.028946635514958918,0.001953125
+f1,Leak-PreSplit,CervicalCancer,LightGBM,Random,0.019867350538236194,0.00390625
+f1,Leak-PreSplit,CervicalCancer,RandomForest,Bayes,0.01769147099985948,0.001953125
+f1,Leak-PreSplit,CervicalCancer,RandomForest,Grid,0.015104858727000703,0.001953125
+f1,Leak-PreSplit,CervicalCancer,RandomForest,No-Tuning,0.026182110037647553,0.001953125
+f1,Leak-PreSplit,CervicalCancer,RandomForest,Random,0.02017356408372133,0.001953125
+f1,Leak-PreSplit,CervicalCancer,SVM,Bayes,0.023930754591505354,0.00390625
+f1,Leak-PreSplit,CervicalCancer,SVM,Grid,0.02503820933798743,0.001953125
+f1,Leak-PreSplit,CervicalCancer,SVM,No-Tuning,0.019303979278441873,0.00390625
+f1,Leak-PreSplit,CervicalCancer,SVM,Random,0.02455825074235395,0.001953125
+f1,Leak-PreSplit,CervicalCancer,XGBoost,Bayes,0.021570050067337764,0.001953125
+f1,Leak-PreSplit,CervicalCancer,XGBoost,Grid,0.016146465596557535,0.005859375
+f1,Leak-PreSplit,CervicalCancer,XGBoost,No-Tuning,0.029353536256457945,0.001953125
+f1,Leak-PreSplit,CervicalCancer,XGBoost,Random,0.015436900958685561,0.009765625
+f1,Leak-PreSplit,Lung Cancer,LightGBM,Bayes,0.043886313017706666,0.001953125
+f1,Leak-PreSplit,Lung Cancer,LightGBM,Grid,0.04836816780388015,0.001953125
+f1,Leak-PreSplit,Lung Cancer,LightGBM,No-Tuning,0.046680725886212485,0.00390625
+f1,Leak-PreSplit,Lung Cancer,LightGBM,Random,0.047406804296433645,0.001953125
+f1,Leak-PreSplit,Lung Cancer,RandomForest,Bayes,0.04827495198746061,0.001953125
+f1,Leak-PreSplit,Lung Cancer,RandomForest,Grid,0.027896126682626733,0.009765625
+f1,Leak-PreSplit,Lung Cancer,RandomForest,No-Tuning,0.02721345355967395,0.083984375
+f1,Leak-PreSplit,Lung Cancer,RandomForest,Random,0.03522534563228399,0.005859375
+f1,Leak-PreSplit,Lung Cancer,SVM,Bayes,0.046517104398034026,0.009765625
+f1,Leak-PreSplit,Lung Cancer,SVM,Grid,0.04195423904501484,0.00390625
+f1,Leak-PreSplit,Lung Cancer,SVM,No-Tuning,0.038253029166021614,0.005859375
+f1,Leak-PreSplit,Lung Cancer,SVM,Random,0.04499592067281662,0.00390625
+f1,Leak-PreSplit,Lung Cancer,XGBoost,Bayes,0.043189990864437346,0.005859375
+f1,Leak-PreSplit,Lung Cancer,XGBoost,Grid,0.04813565810185054,0.00390625
+f1,Leak-PreSplit,Lung Cancer,XGBoost,No-Tuning,0.03842127578535818,0.005859375
+f1,Leak-PreSplit,Lung Cancer,XGBoost,Random,0.04728485886977109,0.00390625
+f1,Leak-PreCV,BreastCancer,LightGBM,Bayes,-0.0009009360672653455,0.875
+f1,Leak-PreCV,BreastCancer,LightGBM,Grid,0.005240220646923399,0.21875
+f1,Leak-PreCV,BreastCancer,LightGBM,No-Tuning,0.0,1.0
+f1,Leak-PreCV,BreastCancer,LightGBM,Random,-0.0017811177576992688,0.625
+f1,Leak-PreCV,BreastCancer,RandomForest,Bayes,0.0026125766525606497,0.3125
+f1,Leak-PreCV,BreastCancer,RandomForest,Grid,-0.0008511117682014957,1.0
+f1,Leak-PreCV,BreastCancer,RandomForest,No-Tuning,0.0,1.0
+f1,Leak-PreCV,BreastCancer,RandomForest,Random,-0.002617581785633527,0.4375
+f1,Leak-PreCV,BreastCancer,SVM,Bayes,-3.8280060301487674e-06,0.98046875
+f1,Leak-PreCV,BreastCancer,SVM,Grid,0.004411810863149535,0.546875
+f1,Leak-PreCV,BreastCancer,SVM,No-Tuning,0.0,1.0
+f1,Leak-PreCV,BreastCancer,SVM,Random,0.004416844737151626,0.4375
+f1,Leak-PreCV,BreastCancer,XGBoost,Bayes,-0.0008749408969021211,1.0
+f1,Leak-PreCV,BreastCancer,XGBoost,Grid,0.0008778067224613162,1.0
+f1,Leak-PreCV,BreastCancer,XGBoost,No-Tuning,0.0,1.0
+f1,Leak-PreCV,BreastCancer,XGBoost,Random,0.0017916350651651202,0.3125
+f1,Leak-PreCV,CervicalCancer,LightGBM,Bayes,-0.004700534166987169,0.3125
+f1,Leak-PreCV,CervicalCancer,LightGBM,Grid,-0.006590464265448836,0.037109375
+f1,Leak-PreCV,CervicalCancer,LightGBM,No-Tuning,0.0,1.0
+f1,Leak-PreCV,CervicalCancer,LightGBM,Random,-0.005205686050925773,0.275390625
+f1,Leak-PreCV,CervicalCancer,RandomForest,Bayes,-0.008304811593674244,0.064453125
+f1,Leak-PreCV,CervicalCancer,RandomForest,Grid,-0.00917241008765569,0.005859375
+f1,Leak-PreCV,CervicalCancer,RandomForest,No-Tuning,0.0,1.0
+f1,Leak-PreCV,CervicalCancer,RandomForest,Random,-0.007870890910092443,0.03125
+f1,Leak-PreCV,CervicalCancer,SVM,Bayes,-0.029665039826921813,0.001953125
+f1,Leak-PreCV,CervicalCancer,SVM,Grid,-0.024937001566526396,0.00390625
+f1,Leak-PreCV,CervicalCancer,SVM,No-Tuning,0.0,1.0
+f1,Leak-PreCV,CervicalCancer,SVM,Random,-0.032834693006815276,0.001953125
+f1,Leak-PreCV,CervicalCancer,XGBoost,Bayes,-0.0004315791960756377,1.0
+f1,Leak-PreCV,CervicalCancer,XGBoost,Grid,-0.006807461671908155,0.13671875
+f1,Leak-PreCV,CervicalCancer,XGBoost,No-Tuning,0.0,1.0
+f1,Leak-PreCV,CervicalCancer,XGBoost,Random,-0.010287857121416144,0.02734375
+f1,Leak-PreCV,Lung Cancer,LightGBM,Bayes,0.00630229155538663,0.46875
+f1,Leak-PreCV,Lung Cancer,LightGBM,Grid,-0.003395881023078051,0.5
+f1,Leak-PreCV,Lung Cancer,LightGBM,No-Tuning,0.0,1.0
+f1,Leak-PreCV,Lung Cancer,LightGBM,Random,0.0021665564739392074,0.8125
+f1,Leak-PreCV,Lung Cancer,RandomForest,Bayes,0.011830945193391163,0.3125
+f1,Leak-PreCV,Lung Cancer,RandomForest,Grid,-0.008407999542068135,0.6875
+f1,Leak-PreCV,Lung Cancer,RandomForest,No-Tuning,0.0,1.0
+f1,Leak-PreCV,Lung Cancer,RandomForest,Random,-0.00443864515666974,1.0
+f1,Leak-PreCV,Lung Cancer,SVM,Bayes,-0.010767035254621504,0.1953125
+f1,Leak-PreCV,Lung Cancer,SVM,Grid,-0.017173527628165465,0.23828125
+f1,Leak-PreCV,Lung Cancer,SVM,No-Tuning,0.0,1.0
+f1,Leak-PreCV,Lung Cancer,SVM,Random,-0.010904703126920512,0.49609375
+f1,Leak-PreCV,Lung Cancer,XGBoost,Bayes,0.011969203038762921,0.3828125
+f1,Leak-PreCV,Lung Cancer,XGBoost,Grid,0.0021841721257045534,1.0
+f1,Leak-PreCV,Lung Cancer,XGBoost,No-Tuning,0.0,1.0
+f1,Leak-PreCV,Lung Cancer,XGBoost,Random,0.00397039942863846,0.7421875
+auc,Leak-PreSplit,BreastCancer,LightGBM,Bayes,0.001892838512556838,0.193359375
+auc,Leak-PreSplit,BreastCancer,LightGBM,Grid,0.0022491430061853056,0.064453125
+auc,Leak-PreSplit,BreastCancer,LightGBM,No-Tuning,0.003183918324763424,0.037109375
+auc,Leak-PreSplit,BreastCancer,LightGBM,Random,0.0016338773381027072,0.322265625
+auc,Leak-PreSplit,BreastCancer,RandomForest,Bayes,0.002782202474103934,0.083984375
+auc,Leak-PreSplit,BreastCancer,RandomForest,Grid,0.003636401743796136,0.083984375
+auc,Leak-PreSplit,BreastCancer,RandomForest,No-Tuning,0.004152926820180314,0.064453125
+auc,Leak-PreSplit,BreastCancer,RandomForest,Random,0.0038217732319845267,0.064453125
+auc,Leak-PreSplit,BreastCancer,SVM,Bayes,0.003085177733065059,0.01953125
+auc,Leak-PreSplit,BreastCancer,SVM,Grid,0.0019636336537745213,0.083984375
+auc,Leak-PreSplit,BreastCancer,SVM,No-Tuning,0.0013716558610924467,0.064453125
+auc,Leak-PreSplit,BreastCancer,SVM,Random,0.003179726507191294,0.02734375
+auc,Leak-PreSplit,BreastCancer,XGBoost,Bayes,0.0011262016543706842,0.275390625
+auc,Leak-PreSplit,BreastCancer,XGBoost,Grid,0.0023492808704076882,0.193359375
+auc,Leak-PreSplit,BreastCancer,XGBoost,No-Tuning,0.0033189880020866426,0.193359375
+auc,Leak-PreSplit,BreastCancer,XGBoost,Random,0.003318988002086598,0.10546875
+auc,Leak-PreSplit,CervicalCancer,LightGBM,Bayes,0.07489811144269745,0.001953125
+auc,Leak-PreSplit,CervicalCancer,LightGBM,Grid,0.08223353080040982,0.001953125
+auc,Leak-PreSplit,CervicalCancer,LightGBM,No-Tuning,0.06453535848440309,0.001953125
+auc,Leak-PreSplit,CervicalCancer,LightGBM,Random,0.07128951197422538,0.001953125
+auc,Leak-PreSplit,CervicalCancer,RandomForest,Bayes,0.07260070078541414,0.001953125
+auc,Leak-PreSplit,CervicalCancer,RandomForest,Grid,0.0803705848291836,0.001953125
+auc,Leak-PreSplit,CervicalCancer,RandomForest,No-Tuning,0.06743630573248412,0.001953125
+auc,Leak-PreSplit,CervicalCancer,RandomForest,Random,0.07595374370852076,0.001953125
+auc,Leak-PreSplit,CervicalCancer,SVM,Bayes,0.07271131204252224,0.00390625
+auc,Leak-PreSplit,CervicalCancer,SVM,Grid,0.07275808056062834,0.001953125
+auc,Leak-PreSplit,CervicalCancer,SVM,No-Tuning,0.05696776684037831,0.001953125
+auc,Leak-PreSplit,CervicalCancer,SVM,Random,0.06997869434175169,0.00390625
+auc,Leak-PreSplit,CervicalCancer,XGBoost,Bayes,0.0642547473757665,0.001953125
+auc,Leak-PreSplit,CervicalCancer,XGBoost,Grid,0.07785826169584133,0.001953125
+auc,Leak-PreSplit,CervicalCancer,XGBoost,No-Tuning,0.07080605169777146,0.001953125
+auc,Leak-PreSplit,CervicalCancer,XGBoost,Random,0.07471846094457558,0.001953125
+auc,Leak-PreSplit,Lung Cancer,LightGBM,Bayes,0.04309895833333331,0.02734375
+auc,Leak-PreSplit,Lung Cancer,LightGBM,Grid,0.04034288194444444,0.013671875
+auc,Leak-PreSplit,Lung Cancer,LightGBM,No-Tuning,0.05158420138888893,0.01953125
+auc,Leak-PreSplit,Lung Cancer,LightGBM,Random,0.03750000000000002,0.013671875
+auc,Leak-PreSplit,Lung Cancer,RandomForest,Bayes,0.054882812499999975,0.009765625
+auc,Leak-PreSplit,Lung Cancer,RandomForest,Grid,0.040039062499999965,0.005859375
+auc,Leak-PreSplit,Lung Cancer,RandomForest,No-Tuning,0.04214409722222222,0.02734375
+auc,Leak-PreSplit,Lung Cancer,RandomForest,Random,0.04377170138888892,0.001953125
+auc,Leak-PreSplit,Lung Cancer,SVM,Bayes,0.04667968749999994,0.001953125
+auc,Leak-PreSplit,Lung Cancer,SVM,Grid,0.04832899305555558,0.001953125
+auc,Leak-PreSplit,Lung Cancer,SVM,No-Tuning,0.033051215277777754,0.009765625
+auc,Leak-PreSplit,Lung Cancer,SVM,Random,0.050585937500000025,0.001953125
+auc,Leak-PreSplit,Lung Cancer,XGBoost,Bayes,0.03901909722222215,0.005859375
+auc,Leak-PreSplit,Lung Cancer,XGBoost,Grid,0.05121527777777781,0.00390625
+auc,Leak-PreSplit,Lung Cancer,XGBoost,No-Tuning,0.047243923611111106,0.009765625
+auc,Leak-PreSplit,Lung Cancer,XGBoost,Random,0.0458984375,0.00390625
+auc,Leak-PreCV,BreastCancer,LightGBM,Bayes,-0.00016534391534391845,0.6171875
+auc,Leak-PreCV,BreastCancer,LightGBM,Grid,-0.0001984126984126755,0.921875
+auc,Leak-PreCV,BreastCancer,LightGBM,No-Tuning,0.0,1.0
+auc,Leak-PreCV,BreastCancer,LightGBM,Random,-0.0008597883597883272,0.15625
+auc,Leak-PreCV,BreastCancer,RandomForest,Bayes,-0.0010747354497354423,0.01953125
+auc,Leak-PreCV,BreastCancer,RandomForest,Grid,-0.0009093915343915459,1.0
+auc,Leak-PreCV,BreastCancer,RandomForest,No-Tuning,0.0,1.0
+auc,Leak-PreCV,BreastCancer,RandomForest,Random,0.0002480158730159054,0.8125
+auc,Leak-PreCV,BreastCancer,SVM,Bayes,0.0004960317460317443,0.65234375
+auc,Leak-PreCV,BreastCancer,SVM,Grid,3.3068783068801455e-05,1.0
+auc,Leak-PreCV,BreastCancer,SVM,No-Tuning,0.0,1.0
+auc,Leak-PreCV,BreastCancer,SVM,Random,0.0011904761904761752,0.203125
+auc,Leak-PreCV,BreastCancer,XGBoost,Bayes,-0.0004629629629629761,0.38671875
+auc,Leak-PreCV,BreastCancer,XGBoost,Grid,9.920634920643768e-05,0.41796875
+auc,Leak-PreCV,BreastCancer,XGBoost,No-Tuning,0.0,1.0
+auc,Leak-PreCV,BreastCancer,XGBoost,Random,0.0015211640211640232,0.10546875
+auc,Leak-PreCV,CervicalCancer,LightGBM,Bayes,-0.003234265734265751,0.4921875
+auc,Leak-PreCV,CervicalCancer,LightGBM,Grid,0.0039044289044288917,0.375
+auc,Leak-PreCV,CervicalCancer,LightGBM,No-Tuning,0.0,1.0
+auc,Leak-PreCV,CervicalCancer,LightGBM,Random,-0.005798368298368306,0.431640625
+auc,Leak-PreCV,CervicalCancer,RandomForest,Bayes,0.001107226107226078,0.76953125
+auc,Leak-PreCV,CervicalCancer,RandomForest,Grid,0.014976689976690017,0.232421875
+auc,Leak-PreCV,CervicalCancer,RandomForest,No-Tuning,0.0,1.0
+auc,Leak-PreCV,CervicalCancer,RandomForest,Random,0.011421911421911379,0.275390625
+auc,Leak-PreCV,CervicalCancer,SVM,Bayes,-0.02395104895104897,0.130859375
+auc,Leak-PreCV,CervicalCancer,SVM,Grid,-0.011421911421911447,0.322265625
+auc,Leak-PreCV,CervicalCancer,SVM,No-Tuning,0.0,1.0
+auc,Leak-PreCV,CervicalCancer,SVM,Random,-0.029079254079254067,0.083984375
+auc,Leak-PreCV,CervicalCancer,XGBoost,Bayes,-0.009673659673659695,0.625
+auc,Leak-PreCV,CervicalCancer,XGBoost,Grid,-0.0003205128205128749,0.845703125
+auc,Leak-PreCV,CervicalCancer,XGBoost,No-Tuning,0.0,1.0
+auc,Leak-PreCV,CervicalCancer,XGBoost,Random,0.0019522144522144068,1.0
+auc,Leak-PreCV,Lung Cancer,LightGBM,Bayes,-0.0003906250000000111,1.0
+auc,Leak-PreCV,Lung Cancer,LightGBM,Grid,-0.009765624999999955,0.91015625
+auc,Leak-PreCV,Lung Cancer,LightGBM,No-Tuning,0.0013020833333333259,1.0
+auc,Leak-PreCV,Lung Cancer,LightGBM,Random,-0.006249999999999978,0.734375
+auc,Leak-PreCV,Lung Cancer,RandomForest,Bayes,0.011979166666666652,0.5390625
+auc,Leak-PreCV,Lung Cancer,RandomForest,Grid,-0.002473958333333326,0.71875
+auc,Leak-PreCV,Lung Cancer,RandomForest,No-Tuning,-0.00013020833333333704,1.0
+auc,Leak-PreCV,Lung Cancer,RandomForest,Random,0.0011718750000000223,0.359375
+auc,Leak-PreCV,Lung Cancer,SVM,Bayes,-0.022395833333333347,0.154296875
+auc,Leak-PreCV,Lung Cancer,SVM,Grid,-0.026302083333333302,0.10546875
+auc,Leak-PreCV,Lung Cancer,SVM,No-Tuning,0.0,1.0
+auc,Leak-PreCV,Lung Cancer,SVM,Random,-0.019661458333333316,0.25
+auc,Leak-PreCV,Lung Cancer,XGBoost,Bayes,-0.0046875,0.71484375
+auc,Leak-PreCV,Lung Cancer,XGBoost,Grid,0.0037760416666667296,0.4765625
+auc,Leak-PreCV,Lung Cancer,XGBoost,No-Tuning,0.00078125,1.0
+auc,Leak-PreCV,Lung Cancer,XGBoost,Random,0.007161458333333326,0.3125
+mcc,Leak-PreSplit,BreastCancer,LightGBM,Bayes,0.0032299822512041,0.5390625
+mcc,Leak-PreSplit,BreastCancer,LightGBM,Grid,0.014762772589395467,0.083984375
+mcc,Leak-PreSplit,BreastCancer,LightGBM,No-Tuning,0.008220744408908177,0.322265625
+mcc,Leak-PreSplit,BreastCancer,LightGBM,Random,-0.0073182140423317275,0.556640625
+mcc,Leak-PreSplit,BreastCancer,RandomForest,Bayes,0.009926836557709973,0.556640625
+mcc,Leak-PreSplit,BreastCancer,RandomForest,Grid,0.009182608492025967,0.4921875
+mcc,Leak-PreSplit,BreastCancer,RandomForest,No-Tuning,0.012312865126677985,0.193359375
+mcc,Leak-PreSplit,BreastCancer,RandomForest,Random,0.010728289681392921,0.322265625
+mcc,Leak-PreSplit,BreastCancer,SVM,Bayes,0.019425139090646505,0.005859375
+mcc,Leak-PreSplit,BreastCancer,SVM,Grid,0.018623648137802817,0.009765625
+mcc,Leak-PreSplit,BreastCancer,SVM,No-Tuning,0.006022734840478117,0.03515625
+mcc,Leak-PreSplit,BreastCancer,SVM,Random,0.018498335328018523,0.013671875
+mcc,Leak-PreSplit,BreastCancer,XGBoost,Bayes,-0.002768397898062891,0.625
+mcc,Leak-PreSplit,BreastCancer,XGBoost,Grid,0.002543524301657296,0.4921875
+mcc,Leak-PreSplit,BreastCancer,XGBoost,No-Tuning,0.00975366591505914,0.083984375
+mcc,Leak-PreSplit,BreastCancer,XGBoost,Random,0.002947638943816133,0.625
+mcc,Leak-PreSplit,CervicalCancer,LightGBM,Bayes,0.25655841396821355,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,LightGBM,Grid,0.2561551869956429,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,LightGBM,No-Tuning,0.37743690548683634,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,LightGBM,Random,0.26226745078701424,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,RandomForest,Bayes,0.251579422293874,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,RandomForest,Grid,0.22495931255205578,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,RandomForest,No-Tuning,0.3299386106093884,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,RandomForest,Random,0.2703033503469193,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,SVM,Bayes,0.2705157222392507,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,SVM,Grid,0.29934637815411225,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,SVM,No-Tuning,0.3878252969620574,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,SVM,Random,0.26280642963952844,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,XGBoost,Bayes,0.2895347693926101,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,XGBoost,Grid,0.24628219126674505,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,XGBoost,No-Tuning,0.3814301244400431,0.001953125
+mcc,Leak-PreSplit,CervicalCancer,XGBoost,Random,0.25835883442004376,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,LightGBM,Bayes,0.2873977414117387,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,LightGBM,Grid,0.2910855308412348,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,LightGBM,No-Tuning,0.2841040864515378,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,LightGBM,Random,0.2900753500866251,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,RandomForest,Bayes,0.27750170835463067,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,RandomForest,Grid,0.20822726547905374,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,RandomForest,No-Tuning,0.1971239367419057,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,RandomForest,Random,0.22623573776331152,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,SVM,Bayes,0.2508586682981455,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,SVM,Grid,0.23626309809355156,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,SVM,No-Tuning,0.23092428375062526,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,SVM,Random,0.25262725868199276,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,XGBoost,Bayes,0.2799111818796954,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,XGBoost,Grid,0.28701955138468277,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,XGBoost,No-Tuning,0.26342877964694206,0.001953125
+mcc,Leak-PreSplit,Lung Cancer,XGBoost,Random,0.2818035479515796,0.001953125
+mcc,Leak-PreCV,BreastCancer,LightGBM,Bayes,-0.0018236780953324594,0.875
+mcc,Leak-PreCV,BreastCancer,LightGBM,Grid,0.011353158783741523,0.109375
+mcc,Leak-PreCV,BreastCancer,LightGBM,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,BreastCancer,LightGBM,Random,-0.003626272831421673,0.859375
+mcc,Leak-PreCV,BreastCancer,RandomForest,Bayes,0.0055559946318174515,0.4375
+mcc,Leak-PreCV,BreastCancer,RandomForest,Grid,-0.001617665588260786,1.0
+mcc,Leak-PreCV,BreastCancer,RandomForest,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,BreastCancer,RandomForest,Random,-0.005542730681912955,0.3125
+mcc,Leak-PreCV,BreastCancer,SVM,Bayes,-0.0003376630323657759,0.673828125
+mcc,Leak-PreCV,BreastCancer,SVM,Grid,0.009201255603710346,0.546875
+mcc,Leak-PreCV,BreastCancer,SVM,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,BreastCancer,SVM,Random,0.00907594279392605,0.515625
+mcc,Leak-PreCV,BreastCancer,XGBoost,Bayes,-0.0015713507096791978,0.8125
+mcc,Leak-PreCV,BreastCancer,XGBoost,Grid,0.0020094505194559464,0.8125
+mcc,Leak-PreCV,BreastCancer,XGBoost,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,BreastCancer,XGBoost,Random,0.0040625044328951865,0.5625
+mcc,Leak-PreCV,CervicalCancer,LightGBM,Bayes,-0.07781352045609527,0.015625
+mcc,Leak-PreCV,CervicalCancer,LightGBM,Grid,-0.09402330849176713,0.005859375
+mcc,Leak-PreCV,CervicalCancer,LightGBM,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,CervicalCancer,LightGBM,Random,-0.08071107487322421,0.048828125
+mcc,Leak-PreCV,CervicalCancer,RandomForest,Bayes,-0.07486422747433522,0.064453125
+mcc,Leak-PreCV,CervicalCancer,RandomForest,Grid,-0.08737856677810078,0.00390625
+mcc,Leak-PreCV,CervicalCancer,RandomForest,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,CervicalCancer,RandomForest,Random,-0.07047419785478512,0.03125
+mcc,Leak-PreCV,CervicalCancer,SVM,Bayes,-0.3239716066601964,0.001953125
+mcc,Leak-PreCV,CervicalCancer,SVM,Grid,-0.26101145247104135,0.001953125
+mcc,Leak-PreCV,CervicalCancer,SVM,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,CervicalCancer,SVM,Random,-0.3555108705490078,0.001953125
+mcc,Leak-PreCV,CervicalCancer,XGBoost,Bayes,-0.03688132883559746,0.09765625
+mcc,Leak-PreCV,CervicalCancer,XGBoost,Grid,-0.07943322510459119,0.04296875
+mcc,Leak-PreCV,CervicalCancer,XGBoost,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,CervicalCancer,XGBoost,Random,-0.1059390713746506,0.009765625
+mcc,Leak-PreCV,Lung Cancer,LightGBM,Bayes,0.03451618067144496,0.375
+mcc,Leak-PreCV,Lung Cancer,LightGBM,Grid,-0.02017112912763631,0.5
+mcc,Leak-PreCV,Lung Cancer,LightGBM,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,Lung Cancer,LightGBM,Random,0.013685773369169468,0.6875
+mcc,Leak-PreCV,Lung Cancer,RandomForest,Bayes,0.0479824306745549,0.3125
+mcc,Leak-PreCV,Lung Cancer,RandomForest,Grid,-0.03248156955348935,0.6875
+mcc,Leak-PreCV,Lung Cancer,RandomForest,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,Lung Cancer,RandomForest,Random,-0.015508508581321679,0.84375
+mcc,Leak-PreCV,Lung Cancer,SVM,Bayes,-0.05350063392225858,0.1953125
+mcc,Leak-PreCV,Lung Cancer,SVM,Grid,-0.07907171472582429,0.1953125
+mcc,Leak-PreCV,Lung Cancer,SVM,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,Lung Cancer,SVM,Random,-0.05525996785738755,0.49609375
+mcc,Leak-PreCV,Lung Cancer,XGBoost,Bayes,0.0501402866282042,0.3125
+mcc,Leak-PreCV,Lung Cancer,XGBoost,Grid,0.008916763211530065,0.8125
+mcc,Leak-PreCV,Lung Cancer,XGBoost,No-Tuning,0.0,1.0
+mcc,Leak-PreCV,Lung Cancer,XGBoost,Random,0.015752314722959265,0.9453125
+f1_macro,Leak-PreSplit,BreastCancer,LightGBM,Bayes,0.0016457957200431861,0.5390625
+f1_macro,Leak-PreSplit,BreastCancer,LightGBM,Grid,0.007421351786538033,0.083984375
+f1_macro,Leak-PreSplit,BreastCancer,LightGBM,No-Tuning,0.004272513182405702,0.275390625
+f1_macro,Leak-PreSplit,BreastCancer,LightGBM,Random,-0.003551252676595851,0.556640625
+f1_macro,Leak-PreSplit,BreastCancer,RandomForest,Bayes,0.005075863441862616,0.556640625
+f1_macro,Leak-PreSplit,BreastCancer,RandomForest,Grid,0.004661394560771614,0.4921875
+f1_macro,Leak-PreSplit,BreastCancer,RandomForest,No-Tuning,0.006405899710655616,0.193359375
+f1_macro,Leak-PreSplit,BreastCancer,RandomForest,Random,0.005540450585635404,0.322265625
+f1_macro,Leak-PreSplit,BreastCancer,SVM,Bayes,0.009987732709232,0.005859375
+f1_macro,Leak-PreSplit,BreastCancer,SVM,Grid,0.009533317390158069,0.009765625
+f1_macro,Leak-PreSplit,BreastCancer,SVM,No-Tuning,0.0031137079375608834,0.01953125
+f1_macro,Leak-PreSplit,BreastCancer,SVM,Random,0.009543500170435992,0.009765625
+f1_macro,Leak-PreSplit,BreastCancer,XGBoost,Bayes,-0.0013642438821787838,0.625
+f1_macro,Leak-PreSplit,BreastCancer,XGBoost,Grid,0.0013013513136056142,0.4921875
+f1_macro,Leak-PreSplit,BreastCancer,XGBoost,No-Tuning,0.005026199695866751,0.083984375
+f1_macro,Leak-PreSplit,BreastCancer,XGBoost,Random,0.001554925925812045,0.625
+f1_macro,Leak-PreSplit,CervicalCancer,LightGBM,Bayes,0.1372726542657457,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,LightGBM,Grid,0.1374438748323152,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,LightGBM,No-Tuning,0.19120117839743764,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,LightGBM,Random,0.13895148692067577,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,RandomForest,Bayes,0.13046062529207947,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,RandomForest,Grid,0.11691191554185183,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,RandomForest,No-Tuning,0.16823801761828366,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,RandomForest,Random,0.13884308117383043,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,SVM,Bayes,0.14570155487499967,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,SVM,Grid,0.15836636314192615,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,SVM,No-Tuning,0.19699328975705738,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,SVM,Random,0.14199943309137417,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,XGBoost,Bayes,0.152147258686467,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,XGBoost,Grid,0.13015434417750577,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,XGBoost,No-Tuning,0.19435884715585225,0.001953125
+f1_macro,Leak-PreSplit,CervicalCancer,XGBoost,Random,0.13564826683673498,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,LightGBM,Bayes,0.1501152496192797,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,LightGBM,Grid,0.1501743578240995,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,LightGBM,No-Tuning,0.14921798741072273,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,LightGBM,Random,0.14909759082411972,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,RandomForest,Bayes,0.14200697467923146,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,RandomForest,Grid,0.10823252432443083,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,RandomForest,No-Tuning,0.10222696344162004,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,RandomForest,Random,0.11834807259102964,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,SVM,Bayes,0.13180765807334655,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,SVM,Grid,0.12523424757337426,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,SVM,No-Tuning,0.12037048544031334,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,SVM,Random,0.13267359841346688,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,XGBoost,Bayes,0.14517121669678187,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,XGBoost,Grid,0.14866324755104507,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,XGBoost,No-Tuning,0.13819610362573104,0.001953125
+f1_macro,Leak-PreSplit,Lung Cancer,XGBoost,Random,0.14520081531544354,0.001953125
+f1_macro,Leak-PreCV,BreastCancer,LightGBM,Bayes,-0.000989608479591586,0.875
+f1_macro,Leak-PreCV,BreastCancer,LightGBM,Grid,0.005606575197038166,0.21875
+f1_macro,Leak-PreCV,BreastCancer,LightGBM,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,BreastCancer,LightGBM,Random,-0.0019377473313649252,0.625
+f1_macro,Leak-PreCV,BreastCancer,RandomForest,Bayes,0.002786006655541551,0.3125
+f1_macro,Leak-PreCV,BreastCancer,RandomForest,Grid,-0.0008843439213616522,1.0
+f1_macro,Leak-PreCV,BreastCancer,RandomForest,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,BreastCancer,RandomForest,Random,-0.002796146455806181,0.4375
+f1_macro,Leak-PreCV,BreastCancer,SVM,Bayes,-1.2774056228437303e-05,0.98046875
+f1_macro,Leak-PreCV,BreastCancer,SVM,Grid,0.004761983630323962,0.546875
+f1_macro,Leak-PreCV,BreastCancer,SVM,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,BreastCancer,SVM,Random,0.004772166410601885,0.4375
+f1_macro,Leak-PreCV,BreastCancer,XGBoost,Bayes,-0.0009336293068429758,1.0
+f1_macro,Leak-PreCV,BreastCancer,XGBoost,Grid,0.0009452459614199826,1.0
+f1_macro,Leak-PreCV,BreastCancer,XGBoost,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,BreastCancer,XGBoost,Random,0.001966774544787786,0.3125
+f1_macro,Leak-PreCV,CervicalCancer,LightGBM,Bayes,-0.03407323379896151,0.0546875
+f1_macro,Leak-PreCV,CervicalCancer,LightGBM,Grid,-0.03981265913929446,0.009765625
+f1_macro,Leak-PreCV,CervicalCancer,LightGBM,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,CervicalCancer,LightGBM,Random,-0.035670897276069,0.064453125
+f1_macro,Leak-PreCV,CervicalCancer,RandomForest,Bayes,-0.03596237074471451,0.064453125
+f1_macro,Leak-PreCV,CervicalCancer,RandomForest,Grid,-0.0429787162288385,0.00390625
+f1_macro,Leak-PreCV,CervicalCancer,RandomForest,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,CervicalCancer,RandomForest,Random,-0.03480901210349413,0.03125
+f1_macro,Leak-PreCV,CervicalCancer,SVM,Bayes,-0.15430226049145745,0.001953125
+f1_macro,Leak-PreCV,CervicalCancer,SVM,Grid,-0.12546990730816882,0.001953125
+f1_macro,Leak-PreCV,CervicalCancer,SVM,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,CervicalCancer,SVM,Random,-0.17235406496987277,0.001953125
+f1_macro,Leak-PreCV,CervicalCancer,XGBoost,Bayes,-0.013901078610087181,0.30078125
+f1_macro,Leak-PreCV,CervicalCancer,XGBoost,Grid,-0.03626135535459516,0.04296875
+f1_macro,Leak-PreCV,CervicalCancer,XGBoost,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,CervicalCancer,XGBoost,Random,-0.04986721519177797,0.01953125
+f1_macro,Leak-PreCV,Lung Cancer,LightGBM,Bayes,0.015253519089883417,0.375
+f1_macro,Leak-PreCV,Lung Cancer,LightGBM,Grid,-0.010180716921581867,0.5
+f1_macro,Leak-PreCV,Lung Cancer,LightGBM,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,Lung Cancer,LightGBM,Random,0.00548052759778569,0.8125
+f1_macro,Leak-PreCV,Lung Cancer,RandomForest,Bayes,0.02282873685608213,0.3828125
+f1_macro,Leak-PreCV,Lung Cancer,RandomForest,Grid,-0.016109660092923528,0.6875
+f1_macro,Leak-PreCV,Lung Cancer,RandomForest,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,Lung Cancer,RandomForest,Random,-0.007207223096916982,1.0
+f1_macro,Leak-PreCV,Lung Cancer,SVM,Bayes,-0.02573054665196889,0.1953125
+f1_macro,Leak-PreCV,Lung Cancer,SVM,Grid,-0.03729642398706803,0.1953125
+f1_macro,Leak-PreCV,Lung Cancer,SVM,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,Lung Cancer,SVM,Random,-0.02625687589940264,0.49609375
+f1_macro,Leak-PreCV,Lung Cancer,XGBoost,Bayes,0.02348350748977035,0.3828125
+f1_macro,Leak-PreCV,Lung Cancer,XGBoost,Grid,0.0018589429806676549,1.0
+f1_macro,Leak-PreCV,Lung Cancer,XGBoost,No-Tuning,0.0,1.0
+f1_macro,Leak-PreCV,Lung Cancer,XGBoost,Random,0.005424327181571353,0.84375
+recall_min,Leak-PreSplit,BreastCancer,LightGBM,Bayes,0.012108763693270708,0.271484375
+recall_min,Leak-PreSplit,BreastCancer,LightGBM,Grid,0.01635367762128328,0.021484375
+recall_min,Leak-PreSplit,BreastCancer,LightGBM,No-Tuning,0.014132014308070628,0.125
+recall_min,Leak-PreSplit,BreastCancer,LightGBM,Random,-0.0005896490051419678,0.822265625
+recall_min,Leak-PreSplit,BreastCancer,RandomForest,Bayes,0.006969595349877034,0.625
+recall_min,Leak-PreSplit,BreastCancer,RandomForest,Grid,0.00935054773082944,0.607421875
+recall_min,Leak-PreSplit,BreastCancer,RandomForest,No-Tuning,0.00224681421864521,0.921875
+recall_min,Leak-PreSplit,BreastCancer,RandomForest,Random,0.008378046054102407,0.677734375
+recall_min,Leak-PreSplit,BreastCancer,SVM,Bayes,0.018058350100603648,0.0703125
+recall_min,Leak-PreSplit,BreastCancer,SVM,Grid,0.017641962888441796,0.06640625
+recall_min,Leak-PreSplit,BreastCancer,SVM,No-Tuning,0.010479543930248192,0.05078125
+recall_min,Leak-PreSplit,BreastCancer,SVM,Random,0.02002291526939416,0.0390625
+recall_min,Leak-PreSplit,BreastCancer,XGBoost,Bayes,-0.002713503241672255,0.8203125
+recall_min,Leak-PreSplit,BreastCancer,XGBoost,Grid,0.006374357254638951,0.265625
+recall_min,Leak-PreSplit,BreastCancer,XGBoost,No-Tuning,0.009210820478426118,0.193359375
+recall_min,Leak-PreSplit,BreastCancer,XGBoost,Random,0.010599709367315024,0.1015625
+recall_min,Leak-PreSplit,CervicalCancer,LightGBM,Bayes,0.13532285124641813,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,LightGBM,Grid,0.13725001113536148,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,LightGBM,No-Tuning,0.3632406871260375,0.001953125
+recall_min,Leak-PreSplit,CervicalCancer,LightGBM,Random,0.15543182931717964,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,RandomForest,Bayes,0.18590151886330233,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,RandomForest,Grid,0.15018299110655797,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,RandomForest,No-Tuning,0.32354720650898994,0.001953125
+recall_min,Leak-PreSplit,CervicalCancer,RandomForest,Random,0.21381527177705523,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,SVM,Bayes,0.1286794946030615,0.009765625
+recall_min,Leak-PreSplit,CervicalCancer,SVM,Grid,0.17745980134515166,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,SVM,No-Tuning,0.3564755838641189,0.001953125
+recall_min,Leak-PreSplit,CervicalCancer,SVM,Random,0.11434383026739714,0.009765625
+recall_min,Leak-PreSplit,CervicalCancer,XGBoost,Bayes,0.19831818924175612,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,XGBoost,Grid,0.15286772675307705,0.00390625
+recall_min,Leak-PreSplit,CervicalCancer,XGBoost,No-Tuning,0.3814184223419893,0.001953125
+recall_min,Leak-PreSplit,CervicalCancer,XGBoost,Random,0.18666726055261088,0.00390625
+recall_min,Leak-PreSplit,Lung Cancer,LightGBM,Bayes,0.29166666666666663,0.00390625
+recall_min,Leak-PreSplit,Lung Cancer,LightGBM,Grid,0.2833333333333333,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,LightGBM,No-Tuning,0.2791666666666667,0.00390625
+recall_min,Leak-PreSplit,Lung Cancer,LightGBM,Random,0.2875,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,RandomForest,Bayes,0.27499999999999997,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,RandomForest,Grid,0.2375,0.00390625
+recall_min,Leak-PreSplit,Lung Cancer,RandomForest,No-Tuning,0.18333333333333335,0.01171875
+recall_min,Leak-PreSplit,Lung Cancer,RandomForest,Random,0.24791666666666665,0.00390625
+recall_min,Leak-PreSplit,Lung Cancer,SVM,Bayes,0.17708333333333334,0.00390625
+recall_min,Leak-PreSplit,Lung Cancer,SVM,Grid,0.1916666666666667,0.0078125
+recall_min,Leak-PreSplit,Lung Cancer,SVM,No-Tuning,0.2,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,SVM,Random,0.2,0.0078125
+recall_min,Leak-PreSplit,Lung Cancer,XGBoost,Bayes,0.2958333333333333,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,XGBoost,Grid,0.27291666666666664,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,XGBoost,No-Tuning,0.2791666666666667,0.001953125
+recall_min,Leak-PreSplit,Lung Cancer,XGBoost,Random,0.26041666666666663,0.001953125
+recall_min,Leak-PreCV,BreastCancer,LightGBM,Bayes,-0.0023809523809523838,1.0
+recall_min,Leak-PreCV,BreastCancer,LightGBM,Grid,0.007142857142857162,0.21875
+recall_min,Leak-PreCV,BreastCancer,LightGBM,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,BreastCancer,LightGBM,Random,-0.0071428571428571504,0.5
+recall_min,Leak-PreCV,BreastCancer,RandomForest,Bayes,-2.2204460492503132e-17,0.5
+recall_min,Leak-PreCV,BreastCancer,RandomForest,Grid,0.0023809523809523838,1.0
+recall_min,Leak-PreCV,BreastCancer,RandomForest,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,BreastCancer,RandomForest,Random,-0.0023809523809523725,1.0
+recall_min,Leak-PreCV,BreastCancer,SVM,Bayes,-0.004761904761904789,0.375
+recall_min,Leak-PreCV,BreastCancer,SVM,Grid,0.00714285714285714,0.625
+recall_min,Leak-PreCV,BreastCancer,SVM,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,BreastCancer,SVM,Random,0.0095238095238095,0.625
+recall_min,Leak-PreCV,BreastCancer,XGBoost,Bayes,1.1102230246251566e-17,1.0
+recall_min,Leak-PreCV,BreastCancer,XGBoost,Grid,0.0023809523809523946,0.5
+recall_min,Leak-PreCV,BreastCancer,XGBoost,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,BreastCancer,XGBoost,Random,0.009523809523809535,0.125
+recall_min,Leak-PreCV,CervicalCancer,LightGBM,Bayes,-0.18181818181818182,0.0078125
+recall_min,Leak-PreCV,CervicalCancer,LightGBM,Grid,-0.19999999999999996,0.00390625
+recall_min,Leak-PreCV,CervicalCancer,LightGBM,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,CervicalCancer,LightGBM,Random,-0.1818181818181818,0.02734375
+recall_min,Leak-PreCV,CervicalCancer,RandomForest,Bayes,-0.10909090909090909,0.0390625
+recall_min,Leak-PreCV,CervicalCancer,RandomForest,Grid,-0.13636363636363638,0.0078125
+recall_min,Leak-PreCV,CervicalCancer,RandomForest,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,CervicalCancer,RandomForest,Random,-0.1,0.0625
+recall_min,Leak-PreCV,CervicalCancer,SVM,Bayes,-0.509090909090909,0.001953125
+recall_min,Leak-PreCV,CervicalCancer,SVM,Grid,-0.4,0.001953125
+recall_min,Leak-PreCV,CervicalCancer,SVM,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,CervicalCancer,SVM,Random,-0.5545454545454545,0.001953125
+recall_min,Leak-PreCV,CervicalCancer,XGBoost,Bayes,-0.10909090909090913,0.04296875
+recall_min,Leak-PreCV,CervicalCancer,XGBoost,Grid,-0.13636363636363638,0.046875
+recall_min,Leak-PreCV,CervicalCancer,XGBoost,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,CervicalCancer,XGBoost,Random,-0.16363636363636364,0.0078125
+recall_min,Leak-PreCV,Lung Cancer,LightGBM,Bayes,0.05,0.34375
+recall_min,Leak-PreCV,Lung Cancer,LightGBM,Grid,-0.0375,0.5
+recall_min,Leak-PreCV,Lung Cancer,LightGBM,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,Lung Cancer,LightGBM,Random,0.025,0.625
+recall_min,Leak-PreCV,Lung Cancer,RandomForest,Bayes,0.0375,0.5
+recall_min,Leak-PreCV,Lung Cancer,RandomForest,Grid,-0.025,0.625
+recall_min,Leak-PreCV,Lung Cancer,RandomForest,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,Lung Cancer,RandomForest,Random,0.0,0.9375
+recall_min,Leak-PreCV,Lung Cancer,SVM,Bayes,-0.075,0.28125
+recall_min,Leak-PreCV,Lung Cancer,SVM,Grid,-0.0875,0.21875
+recall_min,Leak-PreCV,Lung Cancer,SVM,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,Lung Cancer,SVM,Random,-0.075,0.2890625
+recall_min,Leak-PreCV,Lung Cancer,XGBoost,Bayes,0.0375,0.4375
+recall_min,Leak-PreCV,Lung Cancer,XGBoost,Grid,-0.025,0.5
+recall_min,Leak-PreCV,Lung Cancer,XGBoost,No-Tuning,0.0,1.0
+recall_min,Leak-PreCV,Lung Cancer,XGBoost,Random,-0.0125,1.0

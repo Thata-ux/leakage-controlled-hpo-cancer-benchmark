@@ -1,0 +1,13 @@
+Dataset,Model,Best_Tuner,Mean_F1,Std_F1,Mean_AUC,Runtime_s
+BreastCancer,SVM,No-Tuning,0.9763,0.0079,0.9952,0.04
+BreastCancer,XGBoost,Bayes,0.9746,0.0083,0.9937,32.93
+BreastCancer,LightGBM,Random,0.9728,0.0083,0.9928,13.51
+BreastCancer,RandomForest,Grid,0.9631,0.011,0.9897,50.54
+CervicalCancer,RandomForest,Grid,0.9638,0.0132,0.917,45.51
+CervicalCancer,XGBoost,Grid,0.9583,0.0137,0.9188,28.87
+CervicalCancer,LightGBM,Grid,0.9559,0.0148,0.9138,17.04
+CervicalCancer,SVM,Random,0.9547,0.0124,0.9162,69.95
+Lung Cancer,RandomForest,No-Tuning,0.9259,0.0304,0.9452,0.26
+Lung Cancer,SVM,No-Tuning,0.9127,0.0295,0.9483,0.03
+Lung Cancer,XGBoost,No-Tuning,0.9011,0.0268,0.9306,0.23
+Lung Cancer,LightGBM,Grid,0.9006,0.0296,0.9327,9.85

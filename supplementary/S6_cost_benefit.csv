@@ -1,0 +1,49 @@
+Dataset,Model,Tuner,Mean_F1,F1_Gain_vs_NT,Runtime_s,Time_Ratio_vs_NT,F1_per_sec,Cost_Efficiency
+Lung Cancer,XGBoost,No-Tuning,0.9011,0.0,0.23,1.0,3.8789,Excellent
+Lung Cancer,XGBoost,Grid,0.8998,-0.0014,15.32,65.93,0.0587,Excellent
+Lung Cancer,XGBoost,Random,0.9006,-0.0005,8.83,38.03,0.1019,Excellent
+Lung Cancer,XGBoost,Bayes,0.9005,-0.0006,25.59,110.17,0.0352,Good
+Lung Cancer,RandomForest,No-Tuning,0.9259,0.0,0.26,1.0,3.513,Excellent
+Lung Cancer,RandomForest,Grid,0.9242,-0.0017,38.66,146.69,0.0239,Good
+Lung Cancer,RandomForest,Random,0.9221,-0.0038,35.59,135.05,0.0259,Good
+Lung Cancer,RandomForest,Bayes,0.908,-0.0179,55.65,211.15,0.0163,Good
+Lung Cancer,SVM,No-Tuning,0.9127,0.0,0.03,1.0,30.3262,Excellent
+Lung Cancer,SVM,Grid,0.9111,-0.0016,2.34,77.8,0.3891,Excellent
+Lung Cancer,SVM,Random,0.905,-0.0078,6.53,216.82,0.1387,Excellent
+Lung Cancer,SVM,Bayes,0.9045,-0.0083,18.92,628.58,0.0478,Good
+Lung Cancer,LightGBM,No-Tuning,0.9002,0.0,0.04,1.0,21.5804,Excellent
+Lung Cancer,LightGBM,Grid,0.9006,0.0004,9.85,236.08,0.0915,Excellent
+Lung Cancer,LightGBM,Random,0.8994,-0.0007,5.73,137.27,0.1571,Excellent
+Lung Cancer,LightGBM,Bayes,0.8967,-0.0035,24.91,597.19,0.036,Good
+BreastCancer,XGBoost,No-Tuning,0.9693,0.0,0.17,1.0,5.7062,Excellent
+BreastCancer,XGBoost,Grid,0.9702,0.0009,39.94,235.13,0.0243,Good
+BreastCancer,XGBoost,Random,0.9719,0.0026,20.14,118.54,0.0483,Good
+BreastCancer,XGBoost,Bayes,0.9746,0.0053,32.93,193.85,0.0296,Good
+BreastCancer,RandomForest,No-Tuning,0.9614,0.0,0.37,1.0,2.5935,Excellent
+BreastCancer,RandomForest,Grid,0.9631,0.0017,50.54,136.34,0.0191,Good
+BreastCancer,RandomForest,Random,0.9623,0.0008,45.54,122.85,0.0211,Good
+BreastCancer,RandomForest,Bayes,0.9614,-0.0,65.77,177.42,0.0146,Good
+BreastCancer,SVM,No-Tuning,0.9763,0.0,0.04,1.0,24.1709,Excellent
+BreastCancer,SVM,Grid,0.9736,-0.0027,2.45,60.74,0.3968,Excellent
+BreastCancer,SVM,Random,0.9736,-0.0027,4.71,116.57,0.2068,Excellent
+BreastCancer,SVM,Bayes,0.9745,-0.0018,17.38,430.32,0.0561,Excellent
+BreastCancer,LightGBM,No-Tuning,0.9675,0.0,0.24,1.0,4.081,Excellent
+BreastCancer,LightGBM,Grid,0.9684,0.0009,21.37,90.15,0.0453,Good
+BreastCancer,LightGBM,Random,0.9728,0.0053,13.51,57.01,0.072,Excellent
+BreastCancer,LightGBM,Bayes,0.9718,0.0044,28.18,118.87,0.0345,Good
+CervicalCancer,XGBoost,No-Tuning,0.9457,0.0,0.23,1.0,4.0978,Excellent
+CervicalCancer,XGBoost,Grid,0.9583,0.0126,28.87,125.1,0.0332,Good
+CervicalCancer,XGBoost,Random,0.9571,0.0114,16.03,69.45,0.0597,Excellent
+CervicalCancer,XGBoost,Bayes,0.9529,0.0071,31.35,135.86,0.0304,Good
+CervicalCancer,RandomForest,No-Tuning,0.953,0.0,0.32,1.0,2.9908,Excellent
+CervicalCancer,RandomForest,Grid,0.9638,0.0108,45.51,142.83,0.0212,Good
+CervicalCancer,RandomForest,Random,0.9591,0.006,41.36,129.78,0.0232,Good
+CervicalCancer,RandomForest,Bayes,0.9609,0.0079,61.33,192.45,0.0157,Good
+CervicalCancer,SVM,No-Tuning,0.9392,0.0,0.15,1.0,6.4518,Excellent
+CervicalCancer,SVM,Grid,0.9497,0.0106,9.98,68.56,0.0952,Excellent
+CervicalCancer,SVM,Random,0.9547,0.0155,69.95,480.51,0.0136,Good
+CervicalCancer,SVM,Bayes,0.9534,0.0142,61.27,420.9,0.0156,Good
+CervicalCancer,LightGBM,No-Tuning,0.9461,0.0,0.13,1.0,7.2804,Excellent
+CervicalCancer,LightGBM,Grid,0.9559,0.0098,17.04,131.14,0.0561,Excellent
+CervicalCancer,LightGBM,Random,0.9558,0.0097,10.88,83.68,0.0879,Excellent
+CervicalCancer,LightGBM,Bayes,0.9556,0.0095,28.07,216.03,0.034,Good

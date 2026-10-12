@@ -1,0 +1,49 @@
+Dataset,Model,Compare,W-stat,p-value,Sig (α=0.05),Sig (Bonf.),Effect-r,ES Kategori,Winner
+Lung Cancer,XGBoost,No-Tuning vs Bayes,12.0,0.8125,✗,✗,0.075,Kecil,No-Tuning
+Lung Cancer,XGBoost,Grid vs Bayes,14.0,1.0,✗,✗,0.0,Kecil,Bayes
+Lung Cancer,XGBoost,Random vs Bayes,10.0,1.0,✗,✗,0.0,Kecil,Random
+Lung Cancer,XGBoost,No-Tuning vs Grid,18.0,1.0,✗,✗,0.0,Kecil,No-Tuning
+Lung Cancer,RandomForest,No-Tuning vs Bayes,12.0,0.25,✗,✗,0.364,Besar,No-Tuning
+Lung Cancer,RandomForest,Grid vs Bayes,3.0,0.3125,✗,✗,0.319,Besar,Grid
+Lung Cancer,RandomForest,Random vs Bayes,2.0,0.375,✗,✗,0.281,Sedang,Random
+Lung Cancer,RandomForest,No-Tuning vs Grid,14.0,1.0,✗,✗,0.0,Kecil,No-Tuning
+Lung Cancer,SVM,No-Tuning vs Bayes,18.0,0.6523,✗,✗,0.142,Sedang,No-Tuning
+Lung Cancer,SVM,Grid vs Bayes,3.0,0.625,✗,✗,0.155,Sedang,Grid
+Lung Cancer,SVM,Random vs Bayes,10.0,1.0,✗,✗,0.0,Kecil,Random
+Lung Cancer,SVM,No-Tuning vs Grid,21.0,0.9102,✗,✗,0.036,Kecil,No-Tuning
+Lung Cancer,LightGBM,No-Tuning vs Bayes,6.0,0.4375,✗,✗,0.246,Sedang,No-Tuning
+Lung Cancer,LightGBM,Grid vs Bayes,2.0,0.375,✗,✗,0.281,Sedang,Grid
+Lung Cancer,LightGBM,Random vs Bayes,3.0,0.3125,✗,✗,0.319,Besar,Random
+Lung Cancer,LightGBM,No-Tuning vs Grid,7.0,1.0,✗,✗,0.0,Kecil,Grid
+BreastCancer,XGBoost,No-Tuning vs Bayes,5.0,0.1562,✗,✗,0.448,Besar,Bayes
+BreastCancer,XGBoost,Grid vs Bayes,2.0,0.0938,✗,✗,0.53,Besar,Bayes
+BreastCancer,XGBoost,Random vs Bayes,3.0,0.0625,✗,✗,0.589,Besar,Bayes
+BreastCancer,XGBoost,No-Tuning vs Grid,7.5,1.0,✗,✗,0.0,Kecil,Grid
+BreastCancer,RandomForest,No-Tuning vs Bayes,3.0,0.625,✗,✗,0.155,Sedang,No-Tuning
+BreastCancer,RandomForest,Grid vs Bayes,6.0,0.8125,✗,✗,0.075,Kecil,Grid
+BreastCancer,RandomForest,Random vs Bayes,6.0,0.8125,✗,✗,0.075,Kecil,Random
+BreastCancer,RandomForest,No-Tuning vs Grid,9.0,0.8438,✗,✗,0.062,Kecil,Grid
+BreastCancer,SVM,No-Tuning vs Bayes,13.0,0.5469,✗,✗,0.191,Sedang,No-Tuning
+BreastCancer,SVM,Grid vs Bayes,7.0,1.0,✗,✗,0.0,Kecil,Bayes
+BreastCancer,SVM,Random vs Bayes,3.0,1.0,✗,✗,0.0,Kecil,Bayes
+BreastCancer,SVM,No-Tuning vs Grid,4.0,0.4375,✗,✗,0.246,Sedang,No-Tuning
+BreastCancer,LightGBM,No-Tuning vs Bayes,0.0,0.0625,✗,✗,0.589,Besar,Bayes
+BreastCancer,LightGBM,Grid vs Bayes,12.0,0.8125,✗,✗,0.075,Kecil,Bayes
+BreastCancer,LightGBM,Random vs Bayes,7.0,1.0,✗,✗,0.0,Kecil,Random
+BreastCancer,LightGBM,No-Tuning vs Grid,7.0,0.5625,✗,✗,0.183,Sedang,Grid
+CervicalCancer,XGBoost,No-Tuning vs Bayes,5.0,0.0391,✓,✗,0.653,Besar,Bayes
+CervicalCancer,XGBoost,Grid vs Bayes,11.0,0.3828,✗,✗,0.276,Sedang,Grid
+CervicalCancer,XGBoost,Random vs Bayes,7.0,0.2969,✗,✗,0.33,Besar,Random
+CervicalCancer,XGBoost,No-Tuning vs Grid,1.0,0.0039,✓,✓,0.913,Besar,Grid
+CervicalCancer,RandomForest,No-Tuning vs Bayes,3.0,0.0195,✓,✗,0.738,Besar,Bayes
+CervicalCancer,RandomForest,Grid vs Bayes,1.0,0.25,✗,✗,0.364,Besar,Grid
+CervicalCancer,RandomForest,Random vs Bayes,7.0,0.5625,✗,✗,0.183,Sedang,Bayes
+CervicalCancer,RandomForest,No-Tuning vs Grid,0.0,0.002,✓,✓,0.979,Besar,Grid
+CervicalCancer,SVM,No-Tuning vs Bayes,1.0,0.0039,✓,✓,0.913,Besar,Bayes
+CervicalCancer,SVM,Grid vs Bayes,6.0,0.1094,✗,✗,0.506,Besar,Bayes
+CervicalCancer,SVM,Random vs Bayes,0.0,1.0,✗,✗,0.0,Kecil,Random
+CervicalCancer,SVM,No-Tuning vs Grid,4.0,0.0137,✓,✗,0.78,Besar,Grid
+CervicalCancer,LightGBM,No-Tuning vs Bayes,6.0,0.0273,✓,✗,0.698,Besar,Bayes
+CervicalCancer,LightGBM,Grid vs Bayes,7.0,0.5625,✗,✗,0.183,Sedang,Grid
+CervicalCancer,LightGBM,Random vs Bayes,9.0,0.8438,✗,✗,0.062,Kecil,Random
+CervicalCancer,LightGBM,No-Tuning vs Grid,6.0,0.0273,✓,✗,0.698,Besar,Grid

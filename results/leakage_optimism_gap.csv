@@ -1,0 +1,109 @@
+Protocol,Dataset,Model,Tuner,Optimism_Gap
+Leak-Free,BreastCancer,LightGBM,Bayes,0.0001726224270005128
+Leak-Free,BreastCancer,LightGBM,Grid,0.00013265358047029885
+Leak-Free,BreastCancer,LightGBM,Random,-0.003352184958871951
+Leak-Free,BreastCancer,RandomForest,Bayes,0.0036381113395259623
+Leak-Free,BreastCancer,RandomForest,Grid,0.0017210323551747563
+Leak-Free,BreastCancer,RandomForest,Random,0.0021174753601840846
+Leak-Free,BreastCancer,SVM,Bayes,0.0041198895844246075
+Leak-Free,BreastCancer,SVM,Grid,0.0032774193874289814
+Leak-Free,BreastCancer,SVM,Random,0.004768940071887162
+Leak-Free,BreastCancer,XGBoost,Bayes,-0.004897283855070045
+Leak-Free,BreastCancer,XGBoost,Grid,-0.0028956176082852282
+Leak-Free,BreastCancer,XGBoost,Random,-0.0042102103109185164
+Leak-Free,CervicalCancer,LightGBM,Bayes,0.006266802118059045
+Leak-Free,CervicalCancer,LightGBM,Grid,0.00574113144592533
+Leak-Free,CervicalCancer,LightGBM,Random,0.005757607668755082
+Leak-Free,CervicalCancer,RandomForest,Bayes,0.0038935305570329424
+Leak-Free,CervicalCancer,RandomForest,Grid,-0.0007392565349910619
+Leak-Free,CervicalCancer,RandomForest,Random,0.0037520473448162004
+Leak-Free,CervicalCancer,SVM,Bayes,0.006999063256854454
+Leak-Free,CervicalCancer,SVM,Grid,0.0038973900226571987
+Leak-Free,CervicalCancer,SVM,Random,0.005402494577889128
+Leak-Free,CervicalCancer,XGBoost,Bayes,0.009056150046416045
+Leak-Free,CervicalCancer,XGBoost,Grid,0.005620944152361906
+Leak-Free,CervicalCancer,XGBoost,Random,0.004503328528974682
+Leak-Free,Lung Cancer,LightGBM,Bayes,0.0001309353159625104
+Leak-Free,Lung Cancer,LightGBM,Grid,-0.0024445512494244313
+Leak-Free,Lung Cancer,LightGBM,Random,-0.00187420803298749
+Leak-Free,Lung Cancer,RandomForest,Bayes,-0.00548219045075754
+Leak-Free,Lung Cancer,RandomForest,Grid,-0.026827026444742996
+Leak-Free,Lung Cancer,RandomForest,Random,-0.02169079972972594
+Leak-Free,Lung Cancer,SVM,Bayes,0.00454187189200681
+Leak-Free,Lung Cancer,SVM,Grid,-0.007037562262752195
+Leak-Free,Lung Cancer,SVM,Random,0.0009040624069912795
+Leak-Free,Lung Cancer,XGBoost,Bayes,1.388109648956526e-05
+Leak-Free,Lung Cancer,XGBoost,Grid,-0.0023893431506284758
+Leak-Free,Lung Cancer,XGBoost,Random,-0.002538207912577817
+Leak-PreCV,BreastCancer,LightGBM,Bayes,0.009399472017217336
+Leak-PreCV,BreastCancer,LightGBM,Grid,0.0033869491826835074
+Leak-PreCV,BreastCancer,LightGBM,Random,0.007970133846148909
+Leak-PreCV,BreastCancer,RandomForest,Bayes,0.006850738017203895
+Leak-PreCV,BreastCancer,RandomForest,Grid,0.008768501022809938
+Leak-PreCV,BreastCancer,RandomForest,Random,0.012086146812867338
+Leak-PreCV,BreastCancer,SVM,Bayes,0.00831729582997206
+Leak-PreCV,BreastCancer,SVM,Grid,0.0026733636407694885
+Leak-PreCV,BreastCancer,SVM,Random,0.0026733636407694885
+Leak-PreCV,BreastCancer,XGBoost,Bayes,0.004373156408663603
+Leak-PreCV,BreastCancer,XGBoost,Grid,0.0036986765082018813
+Leak-PreCV,BreastCancer,XGBoost,Random,0.0010473974802384766
+Leak-PreCV,CervicalCancer,LightGBM,Bayes,0.03015704903214631
+Leak-PreCV,CervicalCancer,LightGBM,Grid,0.03113147942036365
+Leak-PreCV,CervicalCancer,LightGBM,Random,0.029994670319147477
+Leak-PreCV,CervicalCancer,RandomForest,Bayes,0.029643144547802102
+Leak-PreCV,CervicalCancer,RandomForest,Grid,0.026963687070826414
+Leak-PreCV,CervicalCancer,RandomForest,Random,0.030411647837402113
+Leak-PreCV,CervicalCancer,SVM,Bayes,0.060121883126825634
+Leak-PreCV,CervicalCancer,SVM,Grid,0.05569396858404707
+Leak-PreCV,CervicalCancer,SVM,Random,0.06176204588214175
+Leak-PreCV,CervicalCancer,XGBoost,Bayes,0.028281767875246566
+Leak-PreCV,CervicalCancer,XGBoost,Grid,0.028434546176554432
+Leak-PreCV,CervicalCancer,XGBoost,Random,0.032962504271670426
+Leak-PreCV,Lung Cancer,LightGBM,Bayes,0.04115750743607578
+Leak-PreCV,Lung Cancer,LightGBM,Grid,0.04619886636053967
+Leak-PreCV,Lung Cancer,LightGBM,Random,0.043616579089615505
+Leak-PreCV,Lung Cancer,RandomForest,Bayes,0.0296359692719103
+Leak-PreCV,Lung Cancer,RandomForest,Grid,0.03157735235400035
+Leak-PreCV,Lung Cancer,RandomForest,Random,0.028655821937200565
+Leak-PreCV,Lung Cancer,SVM,Bayes,0.06406158248749211
+Leak-PreCV,Lung Cancer,SVM,Grid,0.06141907832045147
+Leak-PreCV,Lung Cancer,SVM,Random,0.06213040544274258
+Leak-PreCV,Lung Cancer,XGBoost,Bayes,0.03352159091067321
+Leak-PreCV,Lung Cancer,XGBoost,Grid,0.04405703014341056
+Leak-PreCV,Lung Cancer,XGBoost,Random,0.04064360094241913
+Leak-PreSplit,BreastCancer,LightGBM,Bayes,0.008892511735576814
+Leak-PreSplit,BreastCancer,LightGBM,Grid,0.0048593532917877045
+Leak-PreSplit,BreastCancer,LightGBM,Random,0.012388276337254844
+Leak-PreSplit,BreastCancer,RandomForest,Bayes,0.010967448003194847
+Leak-PreSplit,BreastCancer,RandomForest,Grid,0.008697115765823871
+Leak-PreSplit,BreastCancer,RandomForest,Random,0.008872814212321134
+Leak-PreSplit,BreastCancer,SVM,Bayes,0.002767858887727037
+Leak-PreSplit,BreastCancer,SVM,Grid,0.0031172281408062942
+Leak-PreSplit,BreastCancer,SVM,Random,0.003291228642625177
+Leak-PreSplit,BreastCancer,XGBoost,Bayes,0.007138162902183864
+Leak-PreSplit,BreastCancer,XGBoost,Grid,0.006952606519223847
+Leak-PreSplit,BreastCancer,XGBoost,Random,0.0067768821730965325
+Leak-PreSplit,CervicalCancer,LightGBM,Bayes,0.0038657275340001074
+Leak-PreSplit,CervicalCancer,LightGBM,Grid,0.0017851591410753432
+Leak-PreSplit,CervicalCancer,LightGBM,Random,0.0013058698807606683
+Leak-PreSplit,CervicalCancer,RandomForest,Bayes,0.00035033034378046947
+Leak-PreSplit,CervicalCancer,RandomForest,Grid,-0.0003694662533834547
+Leak-PreSplit,CervicalCancer,RandomForest,Random,-0.0004485669933049552
+Leak-PreSplit,CervicalCancer,SVM,Bayes,0.0019535621394086156
+Leak-PreSplit,CervicalCancer,SVM,Grid,-0.0017382668190323524
+Leak-PreSplit,CervicalCancer,SVM,Random,-0.0006849278566369854
+Leak-PreSplit,CervicalCancer,XGBoost,Bayes,0.003144471984832309
+Leak-PreSplit,CervicalCancer,XGBoost,Grid,0.002664562342815313
+Leak-PreSplit,CervicalCancer,XGBoost,Random,0.004501312419182657
+Leak-PreSplit,Lung Cancer,LightGBM,Bayes,0.0046333241444112775
+Leak-PreSplit,Lung Cancer,LightGBM,Grid,-0.0018659770194946134
+Leak-PreSplit,Lung Cancer,LightGBM,Random,-0.0003009367590247836
+Leak-PreSplit,Lung Cancer,RandomForest,Bayes,-0.005479770790585481
+Leak-PreSplit,Lung Cancer,RandomForest,Grid,-0.0012954544907053055
+Leak-PreSplit,Lung Cancer,RandomForest,Random,-0.005462726859947609
+Leak-PreSplit,Lung Cancer,SVM,Bayes,0.0018285211059529184
+Leak-PreSplit,Lung Cancer,SVM,Grid,-0.0026460260960589066
+Leak-PreSplit,Lung Cancer,SVM,Random,0.0015383784329930927
+Leak-PreSplit,Lung Cancer,XGBoost,Bayes,0.009159164125421981
+Leak-PreSplit,Lung Cancer,XGBoost,Grid,0.004972970354447581
+Leak-PreSplit,Lung Cancer,XGBoost,Random,0.0028655556427963137
