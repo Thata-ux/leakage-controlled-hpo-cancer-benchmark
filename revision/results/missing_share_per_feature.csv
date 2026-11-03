@@ -1,0 +1,82 @@
+feature,Lung Cancer,BreastCancer,CervicalCancer
+GENDER,0.0,,
+AGE,0.0,,
+SMOKING,0.0,,
+YELLOW_FINGERS,0.0,,
+ANXIETY,0.0,,
+PEER_PRESSURE,0.0,,
+CHRONIC DISEASE,0.0,,
+FATIGUE ,0.0,,
+ALLERGY ,0.0,,
+WHEEZING,0.0,,
+ALCOHOL CONSUMING,0.0,,
+COUGHING,0.0,,
+SHORTNESS OF BREATH,0.0,,
+SWALLOWING DIFFICULTY,0.0,,
+CHEST PAIN,0.0,,
+radius_mean,,0.0,
+texture_mean,,0.0,
+perimeter_mean,,0.0,
+area_mean,,0.0,
+smoothness_mean,,0.0,
+compactness_mean,,0.0,
+concavity_mean,,0.0,
+concave points_mean,,0.0,
+symmetry_mean,,0.0,
+fractal_dimension_mean,,0.0,
+radius_se,,0.0,
+texture_se,,0.0,
+perimeter_se,,0.0,
+area_se,,0.0,
+smoothness_se,,0.0,
+compactness_se,,0.0,
+concavity_se,,0.0,
+concave points_se,,0.0,
+symmetry_se,,0.0,
+fractal_dimension_se,,0.0,
+radius_worst,,0.0,
+texture_worst,,0.0,
+perimeter_worst,,0.0,
+area_worst,,0.0,
+smoothness_worst,,0.0,
+compactness_worst,,0.0,
+concavity_worst,,0.0,
+concave points_worst,,0.0,
+symmetry_worst,,0.0,
+fractal_dimension_worst,,0.0,
+Unnamed: 32,,1.0,
+Age,,,0.0
+Number of sexual partners,,,0.03
+First sexual intercourse,,,0.008
+Num of pregnancies,,,0.067
+Smokes,,,0.016
+Smokes (years),,,0.016
+Smokes (packs/year),,,0.016
+Hormonal Contraceptives,,,0.123
+Hormonal Contraceptives (years),,,0.123
+IUD,,,0.134
+IUD (years),,,0.134
+STDs,,,0.12
+STDs (number),,,0.12
+STDs:condylomatosis,,,0.12
+STDs:cervical condylomatosis,,,0.12
+STDs:vaginal condylomatosis,,,0.12
+STDs:vulvo-perineal condylomatosis,,,0.12
+STDs:syphilis,,,0.12
+STDs:pelvic inflammatory disease,,,0.12
+STDs:genital herpes,,,0.12
+STDs:molluscum contagiosum,,,0.12
+STDs:AIDS,,,0.12
+STDs:HIV,,,0.12
+STDs:Hepatitis B,,,0.12
+STDs:HPV,,,0.12
+STDs: Number of diagnosis,,,0.0
+STDs: Time since first diagnosis,,,0.915
+STDs: Time since last diagnosis,,,0.915
+Dx:Cancer,,,0.0
+Dx:CIN,,,0.0
+Dx:HPV,,,0.0
+Dx,,,0.0
+Hinselmann,,,0.0
+Schiller,,,0.0
+Citology,,,0.0

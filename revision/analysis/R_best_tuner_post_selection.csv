@@ -1,0 +1,61 @@
+metric,dataset,model,best_tuner,gain,lo,hi,p_nb,p_nb_holm3,p_nb_holm36
+f1,Lung Cancer,XGBoost,Random,-0.00052,-0.03376,0.03272,0.97264,1.0,1.0
+f1,Lung Cancer,RandomForest,Grid,-0.00174,-0.03248,0.029,0.90102,1.0,1.0
+f1,Lung Cancer,SVM,Grid,-0.00161,-0.06096,0.05774,0.95233,1.0,1.0
+f1,Lung Cancer,LightGBM,Grid,0.0004,-0.0185,0.01931,0.9624,1.0,1.0
+f1,BreastCancer,XGBoost,Bayes,0.00528,-0.00955,0.02011,0.44123,1.0,1.0
+f1,BreastCancer,RandomForest,Grid,0.00169,-0.01037,0.01376,0.75855,1.0,1.0
+f1,BreastCancer,SVM,Bayes,-0.0018,-0.01396,0.01036,0.74543,1.0,1.0
+f1,BreastCancer,LightGBM,Random,0.0053,-0.01699,0.02758,0.60376,1.0,1.0
+f1,CervicalCancer,XGBoost,Grid,0.01257,0.00062,0.02452,0.04124,0.11629,1.0
+f1,CervicalCancer,RandomForest,Grid,0.01076,-0.00171,0.02322,0.08269,0.24806,1.0
+f1,CervicalCancer,SVM,Random,0.01551,-0.00124,0.03226,0.06574,0.16238,1.0
+f1,CervicalCancer,LightGBM,Grid,0.00981,-0.00632,0.02593,0.20221,0.52174,1.0
+mcc,Lung Cancer,XGBoost,Random,-0.00184,-0.14403,0.14036,0.97733,1.0,1.0
+mcc,Lung Cancer,RandomForest,Grid,-0.01274,-0.14887,0.12339,0.83703,1.0,1.0
+mcc,Lung Cancer,SVM,Grid,-0.00106,-0.22473,0.22261,0.99165,1.0,1.0
+mcc,Lung Cancer,LightGBM,Grid,-0.00295,-0.10293,0.09702,0.94817,1.0,1.0
+mcc,BreastCancer,XGBoost,Bayes,0.01124,-0.0205,0.04298,0.44361,1.0,1.0
+mcc,BreastCancer,RandomForest,Grid,0.00318,-0.02257,0.02894,0.78605,1.0,1.0
+mcc,BreastCancer,SVM,Bayes,-0.00364,-0.02974,0.02247,0.75984,1.0,1.0
+mcc,BreastCancer,LightGBM,Random,0.01128,-0.03683,0.05938,0.60881,1.0,1.0
+mcc,CervicalCancer,XGBoost,Grid,0.1338,0.03676,0.23085,0.01234,0.03666,0.4277
+mcc,CervicalCancer,RandomForest,Grid,0.10431,-0.00116,0.20978,0.05207,0.15621,1.0
+mcc,CervicalCancer,SVM,Random,0.16697,0.03839,0.29555,0.01655,0.0331,0.54614
+mcc,CervicalCancer,LightGBM,Grid,0.12135,-0.00097,0.24366,0.05149,0.11972,1.0
+recall_min,Lung Cancer,XGBoost,Random,0.025,-0.10696,0.15696,0.67831,1.0,1.0
+recall_min,Lung Cancer,RandomForest,Grid,-0.05,-0.22983,0.12983,0.545,1.0,1.0
+recall_min,Lung Cancer,SVM,Bayes,0.025,-0.16492,0.21492,0.77263,1.0,1.0
+recall_min,Lung Cancer,LightGBM,Grid,0.0,-0.17634,0.17634,1.0,1.0,1.0
+recall_min,BreastCancer,XGBoost,Bayes,0.0119,-0.01517,0.03898,0.34597,1.0,1.0
+recall_min,BreastCancer,RandomForest,Random,-0.00476,-0.0182,0.00867,0.44333,0.96357,1.0
+recall_min,BreastCancer,SVM,Bayes,-0.00476,-0.03404,0.02452,0.72146,1.0,1.0
+recall_min,BreastCancer,LightGBM,Random,0.0119,-0.02854,0.05235,0.52221,1.0,1.0
+recall_min,CervicalCancer,XGBoost,Grid,0.22727,0.06254,0.39201,0.0123,0.03119,0.3936
+recall_min,CervicalCancer,RandomForest,Grid,0.17273,0.03883,0.30662,0.01708,0.05124,0.51238
+recall_min,CervicalCancer,SVM,Random,0.28182,0.12527,0.43836,0.00279,0.00558,0.09763
+recall_min,CervicalCancer,LightGBM,Grid,0.22727,0.05284,0.40171,0.01629,0.04887,0.50497
+bal_acc,Lung Cancer,XGBoost,Random,0.00938,-0.06275,0.0815,0.77539,1.0,1.0
+bal_acc,Lung Cancer,RandomForest,Grid,-0.02083,-0.11189,0.07023,0.61725,1.0,1.0
+bal_acc,Lung Cancer,SVM,Bayes,0.00417,-0.10285,0.11119,0.93175,1.0,1.0
+bal_acc,Lung Cancer,LightGBM,Grid,0.0,-0.07831,0.07831,1.0,1.0,1.0
+bal_acc,BreastCancer,XGBoost,Bayes,0.00665,-0.00966,0.02296,0.38062,1.0,1.0
+bal_acc,BreastCancer,RandomForest,Grid,-0.0001,-0.01185,0.01165,0.98518,1.0,1.0
+bal_acc,BreastCancer,SVM,Bayes,-0.00238,-0.01674,0.01198,0.71624,1.0,1.0
+bal_acc,BreastCancer,LightGBM,Random,0.00665,-0.01897,0.03226,0.57164,1.0,1.0
+bal_acc,CervicalCancer,XGBoost,Grid,0.11075,0.03083,0.19068,0.01203,0.02933,0.38501
+bal_acc,CervicalCancer,RandomForest,Grid,0.08508,0.01695,0.15321,0.01988,0.05965,0.59647
+bal_acc,CervicalCancer,SVM,Random,0.1377,0.05873,0.21668,0.00338,0.00677,0.11845
+bal_acc,CervicalCancer,LightGBM,Grid,0.10915,0.02476,0.19354,0.01687,0.05061,0.52299
+f1_macro,Lung Cancer,XGBoost,Random,0.00134,-0.06449,0.06717,0.96426,1.0,1.0
+f1_macro,Lung Cancer,RandomForest,Grid,-0.00706,-0.07224,0.05812,0.8119,1.0,1.0
+f1_macro,Lung Cancer,SVM,Grid,-0.00278,-0.1134,0.10784,0.95598,1.0,1.0
+f1_macro,Lung Cancer,LightGBM,Grid,0.00114,-0.0482,0.05048,0.9596,1.0,1.0
+f1_macro,BreastCancer,XGBoost,Bayes,0.00569,-0.01022,0.02159,0.43931,1.0,1.0
+f1_macro,BreastCancer,RandomForest,Grid,0.00174,-0.01116,0.01464,0.76693,1.0,1.0
+f1_macro,BreastCancer,SVM,Bayes,-0.00198,-0.01508,0.01113,0.74073,1.0,1.0
+f1_macro,BreastCancer,LightGBM,Random,0.00573,-0.01823,0.02969,0.6019,1.0,1.0
+f1_macro,CervicalCancer,XGBoost,Grid,0.06357,0.01281,0.11432,0.01962,0.05236,0.66709
+f1_macro,CervicalCancer,RandomForest,Grid,0.05101,-0.00192,0.10393,0.05716,0.17147,1.0
+f1_macro,CervicalCancer,SVM,Random,0.07576,0.00921,0.14231,0.02993,0.05986,0.98763
+f1_macro,CervicalCancer,LightGBM,Grid,0.05376,-0.00807,0.11558,0.08074,0.20907,1.0

@@ -1,0 +1,37 @@
+dataset,model,protocol,metric,friedman_p,base,best_tuner,gain,lo,hi,p_nb,p_nb_holm,any_nb_holm_sig
+Lung smote (one-hot),LightGBM,smote (one-hot),f1,0.5686,0.9002,Grid,-0.0009,-0.0284,0.0265,0.9397,1.0,0
+Lung smote (one-hot),LightGBM,smote (one-hot),mcc,0.3439,0.6106,Grid,-0.0026,-0.1229,0.1176,0.9616,1.0,0
+Lung smote (one-hot),LightGBM,smote (one-hot),recall_min,0.3916,0.675,Grid,0.0125,-0.1716,0.1966,0.8813,1.0,0
+Lung smote (one-hot),RandomForest,smote (one-hot),f1,0.1907,0.9259,Grid,0.0005,-0.034,0.035,0.9743,1.0,0
+Lung smote (one-hot),RandomForest,smote (one-hot),mcc,0.1907,0.7095,Grid,-0.0032,-0.1558,0.1494,0.9633,1.0,0
+Lung smote (one-hot),RandomForest,smote (one-hot),recall_min,0.2407,0.775,Grid,-0.0375,-0.2315,0.1565,0.6722,1.0,0
+Lung smote (one-hot),SVM,smote (one-hot),f1,0.963,0.9127,Grid,-0.0016,-0.061,0.0577,0.9523,1.0,0
+Lung smote (one-hot),SVM,smote (one-hot),mcc,0.963,0.6726,Grid,-0.0011,-0.2247,0.2226,0.9917,1.0,0
+Lung smote (one-hot),SVM,smote (one-hot),recall_min,0.9651,0.775,Grid,0.0125,-0.2167,0.2417,0.9045,1.0,0
+Lung smote (one-hot),XGBoost,smote (one-hot),f1,0.9979,0.9011,Random,0.0011,-0.0349,0.037,0.9472,1.0,0
+Lung smote (one-hot),XGBoost,smote (one-hot),mcc,0.9979,0.6168,Random,0.0048,-0.149,0.1586,0.9453,1.0,0
+Lung smote (one-hot),XGBoost,smote (one-hot),recall_min,0.7379,0.675,Random,0.025,-0.107,0.157,0.6783,1.0,0
+Lung smotenc,LightGBM,smotenc,f1,0.1708,0.8918,Bayes,0.014,-0.0199,0.0479,0.3748,1.0,0
+Lung smotenc,LightGBM,smotenc,mcc,0.1708,0.5728,Bayes,0.069,-0.0824,0.2204,0.3293,0.988,0
+Lung smotenc,LightGBM,smotenc,recall_min,0.0881,0.625,Bayes,0.1125,-0.1299,0.3549,0.3212,0.9636,0
+Lung smotenc,RandomForest,smotenc,f1,0.158,0.9262,Grid,-0.0024,-0.0424,0.0376,0.8947,1.0,0
+Lung smotenc,RandomForest,smotenc,mcc,0.158,0.7149,Grid,-0.0111,-0.165,0.1427,0.8734,1.0,0
+Lung smotenc,RandomForest,smotenc,recall_min,0.2123,0.775,Grid,-0.0125,-0.2128,0.1878,0.8908,1.0,0
+Lung smotenc,SVM,smotenc,f1,0.5752,0.9074,Grid,-0.0096,-0.0542,0.0349,0.6367,1.0,0
+Lung smotenc,SVM,smotenc,mcc,0.7011,0.6502,Grid,-0.0332,-0.201,0.1347,0.6655,1.0,0
+Lung smotenc,SVM,smotenc,recall_min,0.9877,0.75,Grid,0.0,-0.1763,0.1763,1.0,1.0,0
+Lung smotenc,XGBoost,smotenc,f1,0.0625,0.8961,Grid,0.0167,-0.0137,0.047,0.246,0.7381,0
+Lung smotenc,XGBoost,smotenc,mcc,0.0625,0.5931,Grid,0.0701,-0.0556,0.1959,0.2388,0.7164,0
+Lung smotenc,XGBoost,smotenc,recall_min,0.0164,0.65,Grid,0.1,-0.032,0.232,0.1206,0.3619,0
+Lung ros,LightGBM,ros,f1,0.3336,0.8791,Grid,0.0172,-0.0162,0.0506,0.2732,0.8196,0
+Lung ros,LightGBM,ros,mcc,0.0966,0.5361,Grid,0.0959,-0.0576,0.2494,0.1912,0.5736,0
+Lung ros,LightGBM,ros,recall_min,0.1551,0.65,Grid,0.15,-0.0702,0.3702,0.1578,0.4734,0
+Lung ros,RandomForest,ros,f1,0.4254,0.9154,Bayes,-0.0049,-0.0363,0.0264,0.7296,0.9451,0
+Lung ros,RandomForest,ros,mcc,0.697,0.6694,Bayes,0.0048,-0.1154,0.1249,0.9303,1.0,0
+Lung ros,RandomForest,ros,recall_min,0.194,0.7375,Bayes,0.075,-0.0866,0.2366,0.3212,0.9636,0
+Lung ros,SVM,ros,f1,0.7507,0.9019,Random,0.0091,-0.0373,0.0554,0.6692,1.0,0
+Lung ros,SVM,ros,mcc,0.7507,0.6518,Random,0.0295,-0.141,0.1999,0.7049,1.0,0
+Lung ros,SVM,ros,recall_min,0.7793,0.825,Grid,0.0125,-0.1716,0.1966,0.8813,1.0,0
+Lung ros,XGBoost,ros,f1,0.0115,0.8853,Grid,0.0206,-0.0053,0.0465,0.1061,0.3183,0
+Lung ros,XGBoost,ros,mcc,0.0024,0.5567,Grid,0.1184,-0.0055,0.2422,0.0589,0.1768,0
+Lung ros,XGBoost,ros,recall_min,0.0008,0.6625,Grid,0.2,0.0202,0.3798,0.033,0.099,0

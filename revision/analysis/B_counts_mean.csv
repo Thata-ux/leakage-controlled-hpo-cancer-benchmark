@@ -1,0 +1,13 @@
+dataset,protocol,part,n_original,n_synthetic,n_class0,n_class1
+BreastCancer,Leak-PreSplit (original),test,116.8,26.2,71.7,71.3
+BreastCancer,Leak-PreSplit (original),train,452.2,118.8,285.3,285.7
+BreastCancer,Leak-PreSplit-OrigTest (block B),test,114.0,0.0,72.0,42.0
+BreastCancer,Leak-PreSplit-OrigTest (block B),train,455.0,145.0,285.0,315.0
+CervicalCancer,Leak-PreSplit (original),test,168.5,144.5,156.7,156.3
+CervicalCancer,Leak-PreSplit (original),train,666.5,582.5,624.3,624.7
+CervicalCancer,Leak-PreSplit-OrigTest (block B),test,167.0,0.0,156.0,11.0
+CervicalCancer,Leak-PreSplit-OrigTest (block B),train,668.0,727.0,625.0,770.0
+Lung Cancer,Leak-PreSplit (original),test,55.5,40.5,48.0,48.0
+Lung Cancer,Leak-PreSplit (original),train,220.5,159.5,190.0,190.0
+Lung Cancer,Leak-PreSplit-OrigTest (block B),test,56.0,0.0,8.0,48.0
+Lung Cancer,Leak-PreSplit-OrigTest (block B),train,220.0,200.0,230.0,190.0

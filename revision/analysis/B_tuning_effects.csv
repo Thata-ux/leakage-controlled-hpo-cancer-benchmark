@@ -1,0 +1,37 @@
+dataset,model,protocol,metric,friedman_p,base,best_tuner,gain,lo,hi,p_nb,p_nb_holm,any_nb_holm_sig
+BreastCancer,LightGBM,"pre-split, original test",f1,0.1848,0.9702,Random,0.0053,-0.014,0.0245,0.5515,1.0,0
+BreastCancer,LightGBM,"pre-split, original test",mcc,0.2842,0.9363,Random,0.0114,-0.0296,0.0523,0.5455,1.0,0
+BreastCancer,LightGBM,"pre-split, original test",recall_min,0.0467,0.9571,Random,0.0095,-0.0128,0.0318,0.3588,1.0,0
+BreastCancer,RandomForest,"pre-split, original test",f1,0.0741,0.9694,Grid,-0.0009,-0.0075,0.0057,0.7706,1.0,0
+BreastCancer,RandomForest,"pre-split, original test",mcc,0.0741,0.9348,Grid,-0.0018,-0.0154,0.0118,0.7684,1.0,0
+BreastCancer,RandomForest,"pre-split, original test",recall_min,0.5847,0.969,Grid,0.0,0.0,0.0,1.0,1.0,0
+BreastCancer,SVM,"pre-split, original test",f1,0.9831,0.9745,Bayes,0.0043,-0.0095,0.0181,0.4946,1.0,0
+BreastCancer,SVM,"pre-split, original test",mcc,0.9204,0.9457,Bayes,0.0094,-0.0199,0.0387,0.4881,1.0,0
+BreastCancer,SVM,"pre-split, original test",recall_min,0.3221,0.9619,Grid,0.0048,-0.0087,0.0182,0.4433,1.0,0
+BreastCancer,XGBoost,"pre-split, original test",f1,0.2035,0.9719,Random,0.0035,-0.0063,0.0134,0.4402,1.0,0
+BreastCancer,XGBoost,"pre-split, original test",mcc,0.2839,0.9401,Random,0.0076,-0.0137,0.0289,0.4399,1.0,0
+BreastCancer,XGBoost,"pre-split, original test",recall_min,0.3398,0.9571,Random,0.0095,-0.0128,0.0318,0.3588,1.0,0
+CervicalCancer,LightGBM,"pre-split, original test",f1,0.5837,0.9619,Bayes,0.0037,-0.0063,0.0138,0.422,1.0,0
+CervicalCancer,LightGBM,"pre-split, original test",mcc,0.5837,0.724,Bayes,0.0238,-0.0545,0.1021,0.5083,1.0,0
+CervicalCancer,LightGBM,"pre-split, original test",recall_min,0.5393,0.8364,Bayes,0.0182,-0.0588,0.0951,0.6059,1.0,0
+CervicalCancer,RandomForest,"pre-split, original test",f1,0.1058,0.9664,Grid,0.0016,-0.0041,0.0073,0.5392,1.0,0
+CervicalCancer,RandomForest,"pre-split, original test",mcc,0.1058,0.7579,Grid,0.0113,-0.0266,0.0492,0.5156,1.0,0
+CervicalCancer,RandomForest,"pre-split, original test",recall_min,0.1634,0.8818,Random,0.0182,-0.0331,0.0695,0.4433,1.0,0
+CervicalCancer,SVM,"pre-split, original test",f1,0.0101,0.9624,Random,0.0067,-0.0037,0.017,0.1795,0.5384,0
+CervicalCancer,SVM,"pre-split, original test",mcc,0.0101,0.7447,Random,0.0504,-0.0241,0.125,0.1602,0.4807,0
+CervicalCancer,SVM,"pre-split, original test",recall_min,0.0538,0.9182,Random,0.0636,-0.0518,0.1791,0.2438,0.6686,0
+CervicalCancer,XGBoost,"pre-split, original test",f1,0.9462,0.9616,Bayes,-0.0,-0.0081,0.0081,0.9988,1.0,0
+CervicalCancer,XGBoost,"pre-split, original test",mcc,0.9026,0.7264,Bayes,-0.0018,-0.0693,0.0656,0.9523,1.0,0
+CervicalCancer,XGBoost,"pre-split, original test",recall_min,0.702,0.8636,Bayes,-0.0091,-0.143,0.1248,0.8813,1.0,0
+Lung Cancer,LightGBM,"pre-split, original test",f1,0.5566,0.9237,Grid,0.005,-0.0154,0.0254,0.5926,1.0,0
+Lung Cancer,LightGBM,"pre-split, original test",mcc,0.5566,0.7098,Grid,0.0291,-0.0602,0.1184,0.4795,1.0,0
+Lung Cancer,LightGBM,"pre-split, original test",recall_min,0.0991,0.8125,Random,0.0625,-0.0558,0.1808,0.2625,0.7876,0
+Lung Cancer,RandomForest,"pre-split, original test",f1,0.179,0.9379,Random,0.007,-0.0129,0.0268,0.4483,1.0,0
+Lung Cancer,RandomForest,"pre-split, original test",mcc,0.179,0.765,Random,0.0255,-0.0546,0.1056,0.489,1.0,0
+Lung Cancer,RandomForest,"pre-split, original test",recall_min,0.0965,0.8625,Grid,0.0375,-0.0433,0.1183,0.3212,0.9636,0
+Lung Cancer,SVM,"pre-split, original test",f1,0.439,0.9368,Grid,0.0005,-0.0133,0.0144,0.9308,1.0,0
+Lung Cancer,SVM,"pre-split, original test",mcc,0.439,0.7811,Grid,0.0074,-0.0325,0.0474,0.684,1.0,0
+Lung Cancer,SVM,"pre-split, original test",recall_min,0.1116,0.9375,Grid,0.025,-0.0455,0.0955,0.4433,1.0,0
+Lung Cancer,XGBoost,"pre-split, original test",f1,0.0379,0.9188,Bayes,0.014,-0.0084,0.0365,0.1917,0.575,0
+Lung Cancer,XGBoost,"pre-split, original test",mcc,0.0379,0.695,Bayes,0.0516,-0.0291,0.1323,0.1822,0.5466,0
+Lung Cancer,XGBoost,"pre-split, original test",recall_min,0.0683,0.8,Random,0.0625,-0.0558,0.1808,0.2625,0.6686,0

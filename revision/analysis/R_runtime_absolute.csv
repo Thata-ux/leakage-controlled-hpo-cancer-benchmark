@@ -1,0 +1,37 @@
+dataset,model,tuner,nt_s,tuned_s,extra_s,extra_lo,extra_hi
+Lung Cancer,XGBoost,Grid,0.232,15.316,15.083,11.276,18.891
+Lung Cancer,XGBoost,Random,0.232,8.835,8.603,6.958,10.247
+Lung Cancer,XGBoost,Bayes,0.232,25.593,25.361,23.978,26.744
+Lung Cancer,RandomForest,Grid,0.264,38.662,38.398,37.895,38.901
+Lung Cancer,RandomForest,Random,0.264,35.595,35.331,32.873,37.79
+Lung Cancer,RandomForest,Bayes,0.264,55.651,55.387,52.048,58.726
+Lung Cancer,SVM,Grid,0.03,2.341,2.311,1.998,2.625
+Lung Cancer,SVM,Random,0.03,6.526,6.496,5.531,7.46
+Lung Cancer,SVM,Bayes,0.03,18.919,18.889,17.892,19.885
+Lung Cancer,LightGBM,Grid,0.042,9.847,9.806,8.812,10.799
+Lung Cancer,LightGBM,Random,0.042,5.726,5.684,5.011,6.358
+Lung Cancer,LightGBM,Bayes,0.042,24.91,24.868,22.753,26.983
+BreastCancer,XGBoost,Grid,0.17,39.941,39.771,38.883,40.659
+BreastCancer,XGBoost,Random,0.17,20.135,19.966,17.013,22.919
+BreastCancer,XGBoost,Bayes,0.17,32.928,32.758,30.346,35.171
+BreastCancer,RandomForest,Grid,0.371,50.542,50.171,49.405,50.937
+BreastCancer,RandomForest,Random,0.371,45.54,45.169,41.938,48.4
+BreastCancer,RandomForest,Bayes,0.371,65.773,65.402,62.724,68.08
+BreastCancer,SVM,Grid,0.04,2.453,2.413,2.063,2.763
+BreastCancer,SVM,Random,0.04,4.708,4.668,3.952,5.384
+BreastCancer,SVM,Bayes,0.04,17.381,17.341,16.285,18.396
+BreastCancer,LightGBM,Grid,0.237,21.372,21.135,21.008,21.262
+BreastCancer,LightGBM,Random,0.237,13.514,13.277,12.051,14.503
+BreastCancer,LightGBM,Bayes,0.237,28.18,27.943,26.478,29.408
+CervicalCancer,XGBoost,Grid,0.231,28.872,28.641,27.511,29.771
+CervicalCancer,XGBoost,Random,0.231,16.029,15.798,14.023,17.574
+CervicalCancer,XGBoost,Bayes,0.231,31.354,31.124,28.52,33.727
+CervicalCancer,RandomForest,Grid,0.319,45.514,45.196,44.927,45.464
+CervicalCancer,RandomForest,Random,0.319,41.356,41.037,38.317,43.757
+CervicalCancer,RandomForest,Bayes,0.319,61.325,61.007,58.864,63.15
+CervicalCancer,SVM,Grid,0.146,9.98,9.834,8.485,11.183
+CervicalCancer,SVM,Random,0.146,69.946,69.801,60.394,79.207
+CervicalCancer,SVM,Bayes,0.146,61.268,61.123,55.035,67.21
+CervicalCancer,LightGBM,Grid,0.13,17.042,16.912,16.774,17.051
+CervicalCancer,LightGBM,Random,0.13,10.875,10.745,9.746,11.744
+CervicalCancer,LightGBM,Bayes,0.13,28.074,27.944,25.647,30.242

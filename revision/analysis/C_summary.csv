@@ -1,0 +1,49 @@
+dataset,model,tuner,f1,runtime
+BreastCancer,LightGBM,Bayes,0.9639,27.2697
+BreastCancer,LightGBM,Grid,0.971,11.5345
+BreastCancer,LightGBM,No-Tuning,0.9675,0.1661
+BreastCancer,LightGBM,Random,0.9693,9.5043
+BreastCancer,RandomForest,Bayes,0.9597,50.916
+BreastCancer,RandomForest,Grid,0.9614,41.2541
+BreastCancer,RandomForest,No-Tuning,0.9614,0.2177
+BreastCancer,RandomForest,Random,0.9596,33.7909
+BreastCancer,SVM,Bayes,0.9745,17.9026
+BreastCancer,SVM,Grid,0.9736,3.1476
+BreastCancer,SVM,No-Tuning,0.9763,0.0316
+BreastCancer,SVM,Random,0.9745,3.3498
+BreastCancer,XGBoost,Bayes,0.9702,30.6939
+BreastCancer,XGBoost,Grid,0.9745,13.272
+BreastCancer,XGBoost,No-Tuning,0.9693,0.0593
+BreastCancer,XGBoost,Random,0.9675,14.49
+CervicalCancer,LightGBM,Bayes,0.957,25.6679
+CervicalCancer,LightGBM,Grid,0.9564,8.9895
+CervicalCancer,LightGBM,No-Tuning,0.9461,0.0897
+CervicalCancer,LightGBM,Random,0.9549,7.5088
+CervicalCancer,RandomForest,Bayes,0.9588,50.2594
+CervicalCancer,RandomForest,Grid,0.9574,38.3417
+CervicalCancer,RandomForest,No-Tuning,0.953,0.21
+CervicalCancer,RandomForest,Random,0.962,31.1343
+CervicalCancer,SVM,Bayes,0.9547,57.4203
+CervicalCancer,SVM,Grid,0.9487,19.4805
+CervicalCancer,SVM,No-Tuning,0.9392,0.0822
+CervicalCancer,SVM,Random,0.9547,37.8859
+CervicalCancer,XGBoost,Bayes,0.9576,30.4218
+CervicalCancer,XGBoost,Grid,0.9583,11.6669
+CervicalCancer,XGBoost,No-Tuning,0.9457,0.1074
+CervicalCancer,XGBoost,Random,0.9592,11.4656
+Lung Cancer,LightGBM,Bayes,0.9026,21.8731
+Lung Cancer,LightGBM,Grid,0.8953,5.2111
+Lung Cancer,LightGBM,No-Tuning,0.9002,0.0351
+Lung Cancer,LightGBM,Random,0.9024,4.6418
+Lung Cancer,RandomForest,Bayes,0.908,44.4902
+Lung Cancer,RandomForest,Grid,0.9194,33.3452
+Lung Cancer,RandomForest,No-Tuning,0.9259,0.178
+Lung Cancer,RandomForest,Random,0.9101,27.0805
+Lung Cancer,SVM,Bayes,0.8998,19.6756
+Lung Cancer,SVM,Grid,0.9064,3.4151
+Lung Cancer,SVM,No-Tuning,0.9127,0.022
+Lung Cancer,SVM,Random,0.9078,4.3458
+Lung Cancer,XGBoost,Bayes,0.9012,24.8347
+Lung Cancer,XGBoost,Grid,0.9016,6.7629
+Lung Cancer,XGBoost,No-Tuning,0.9011,0.0452
+Lung Cancer,XGBoost,Random,0.9053,5.6244

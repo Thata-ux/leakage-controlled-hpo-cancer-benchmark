@@ -1,0 +1,7 @@
+dataset,variant,f1,auc,mcc,recall_min,bal_acc,sens,spec,runtime
+BreastCancer,no_resampling,0.9772,0.9957,0.9511,0.9595,0.9735,0.9595,0.9875,0.1241
+BreastCancer,smote,0.9745,0.9957,0.9454,0.9548,0.9704,0.9548,0.9861,0.1308
+CervicalCancer,no_resampling,0.9606,0.9399,0.712,0.8273,0.8973,0.8273,0.9673,0.1512
+CervicalCancer,smote,0.9219,0.9203,0.2841,0.2091,0.5991,0.2091,0.9891,0.2397
+Lung Cancer,no_resampling,0.897,0.9465,0.5807,0.5625,0.7604,0.9583,0.5625,0.3943
+Lung Cancer,smote,0.9174,0.9546,0.6714,0.7,0.8271,0.9542,0.7,0.1163

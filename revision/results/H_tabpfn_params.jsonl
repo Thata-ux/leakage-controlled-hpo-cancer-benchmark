@@ -1,0 +1,60 @@
+{"key": "dataset=Lung Cancer|model=TabPFN|run=0|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "0", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=1|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "1", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=2|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "2", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=3|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "3", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=4|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "4", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=5|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "5", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=6|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "6", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=7|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "7", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=8|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "8", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=9|variant=no_resampling", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "no_resampling", "run": "9", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=0|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "0", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=1|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "1", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=2|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "2", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=3|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "3", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=4|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "4", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=5|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "5", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=6|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "6", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=7|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "7", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=8|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "8", "best_params": {}}
+{"key": "dataset=Lung Cancer|model=TabPFN|run=9|variant=smote", "dataset": "Lung Cancer", "model": "TabPFN", "variant": "smote", "run": "9", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=0|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "0", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=1|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "1", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=2|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "2", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=3|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "3", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=4|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "4", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=5|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "5", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=6|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "6", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=7|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "7", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=8|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "8", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=9|variant=no_resampling", "dataset": "BreastCancer", "model": "TabPFN", "variant": "no_resampling", "run": "9", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=0|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "0", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=1|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "1", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=2|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "2", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=3|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "3", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=4|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "4", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=5|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "5", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=6|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "6", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=7|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "7", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=8|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "8", "best_params": {}}
+{"key": "dataset=BreastCancer|model=TabPFN|run=9|variant=smote", "dataset": "BreastCancer", "model": "TabPFN", "variant": "smote", "run": "9", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=0|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "0", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=1|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "1", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=2|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "2", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=3|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "3", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=4|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "4", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=5|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "5", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=6|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "6", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=7|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "7", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=8|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "8", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=9|variant=no_resampling", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "no_resampling", "run": "9", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=0|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "0", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=1|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "1", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=2|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "2", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=3|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "3", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=4|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "4", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=5|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "5", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=6|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "6", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=7|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "7", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=8|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "8", "best_params": {}}
+{"key": "dataset=CervicalCancer|model=TabPFN|run=9|variant=smote", "dataset": "CervicalCancer", "model": "TabPFN", "variant": "smote", "run": "9", "best_params": {}}

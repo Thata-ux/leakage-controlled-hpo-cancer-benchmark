@@ -1,0 +1,240 @@
+{"key": "ir=5|model=XGBoost|run=0|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "0", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=0|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "0", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "5", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=0|tuner=Random", "ir": "5", "model": "XGBoost", "run": "0", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "300", "max_depth": "5", "learning_rate": "0.05"}}
+{"key": "ir=5|model=XGBoost|run=0|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "0", "tuner": "Bayes", "best_params": {"learning_rate": "0.26431154714117966", "max_depth": "8", "n_estimators": "210", "subsample": "0.6964763630495505"}}
+{"key": "ir=5|model=XGBoost|run=1|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "1", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=1|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "1", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "100", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=1|tuner=Random", "ir": "5", "model": "XGBoost", "run": "1", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "300", "max_depth": "3", "learning_rate": "0.1"}}
+{"key": "ir=5|model=XGBoost|run=1|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "1", "tuner": "Bayes", "best_params": {"learning_rate": "0.20596098594388904", "max_depth": "3", "n_estimators": "300", "subsample": "0.5"}}
+{"key": "ir=5|model=XGBoost|run=2|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "2", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=2|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "2", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=2|tuner=Random", "ir": "5", "model": "XGBoost", "run": "2", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "200", "max_depth": "7", "learning_rate": "0.1"}}
+{"key": "ir=5|model=XGBoost|run=2|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "2", "tuner": "Bayes", "best_params": {"learning_rate": "0.3", "max_depth": "10", "n_estimators": "287", "subsample": "0.5682165378404973"}}
+{"key": "ir=5|model=XGBoost|run=3|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "3", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=3|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "3", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=3|tuner=Random", "ir": "5", "model": "XGBoost", "run": "3", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "100", "max_depth": "3", "learning_rate": "0.1"}}
+{"key": "ir=5|model=XGBoost|run=3|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "3", "tuner": "Bayes", "best_params": {"learning_rate": "0.3", "max_depth": "3", "n_estimators": "239", "subsample": "0.588314416714016"}}
+{"key": "ir=5|model=XGBoost|run=4|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "4", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=4|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "4", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "5", "n_estimators": "200", "subsample": "1.0"}}
+{"key": "ir=5|model=XGBoost|run=4|tuner=Random", "ir": "5", "model": "XGBoost", "run": "4", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "50", "max_depth": "5", "learning_rate": "0.2"}}
+{"key": "ir=5|model=XGBoost|run=4|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "4", "tuner": "Bayes", "best_params": {"learning_rate": "0.1348731900306027", "max_depth": "6", "n_estimators": "291", "subsample": "0.8408463439483177"}}
+{"key": "ir=5|model=XGBoost|run=5|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "5", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=5|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "5", "tuner": "Grid", "best_params": {"learning_rate": "0.01", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=5|tuner=Random", "ir": "5", "model": "XGBoost", "run": "5", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "100", "max_depth": "5", "learning_rate": "0.05"}}
+{"key": "ir=5|model=XGBoost|run=5|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "5", "tuner": "Bayes", "best_params": {"learning_rate": "0.1457666122840425", "max_depth": "8", "n_estimators": "238", "subsample": "0.514757068606254"}}
+{"key": "ir=5|model=XGBoost|run=6|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "6", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=6|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "6", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "5", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=6|tuner=Random", "ir": "5", "model": "XGBoost", "run": "6", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "100", "max_depth": "7", "learning_rate": "0.2"}}
+{"key": "ir=5|model=XGBoost|run=6|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "6", "tuner": "Bayes", "best_params": {"learning_rate": "0.15737761269927553", "max_depth": "3", "n_estimators": "244", "subsample": "0.5809412103966078"}}
+{"key": "ir=5|model=XGBoost|run=7|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "7", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=7|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "7", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "3", "n_estimators": "100", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=7|tuner=Random", "ir": "5", "model": "XGBoost", "run": "7", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "200", "max_depth": "5", "learning_rate": "0.2"}}
+{"key": "ir=5|model=XGBoost|run=7|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "7", "tuner": "Bayes", "best_params": {"learning_rate": "0.3", "max_depth": "3", "n_estimators": "292", "subsample": "0.6854644019319661"}}
+{"key": "ir=5|model=XGBoost|run=8|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "8", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=8|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "8", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "5", "n_estimators": "200", "subsample": "1.0"}}
+{"key": "ir=5|model=XGBoost|run=8|tuner=Random", "ir": "5", "model": "XGBoost", "run": "8", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "100", "max_depth": "5", "learning_rate": "0.1"}}
+{"key": "ir=5|model=XGBoost|run=8|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "8", "tuner": "Bayes", "best_params": {"learning_rate": "0.11952418458758123", "max_depth": "6", "n_estimators": "91", "subsample": "0.5603597791895552"}}
+{"key": "ir=5|model=XGBoost|run=9|tuner=No-Tuning", "ir": "5", "model": "XGBoost", "run": "9", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=XGBoost|run=9|tuner=Grid", "ir": "5", "model": "XGBoost", "run": "9", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "100", "subsample": "0.8"}}
+{"key": "ir=5|model=XGBoost|run=9|tuner=Random", "ir": "5", "model": "XGBoost", "run": "9", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "200", "max_depth": "5", "learning_rate": "0.1"}}
+{"key": "ir=5|model=XGBoost|run=9|tuner=Bayes", "ir": "5", "model": "XGBoost", "run": "9", "tuner": "Bayes", "best_params": {"learning_rate": "0.2996233138908964", "max_depth": "8", "n_estimators": "282", "subsample": "0.6610014898025308"}}
+{"key": "ir=5|model=SVM|run=0|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "0", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=0|tuner=Grid", "ir": "5", "model": "SVM", "run": "0", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=0|tuner=Random", "ir": "5", "model": "SVM", "run": "0", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=5|model=SVM|run=0|tuner=Bayes", "ir": "5", "model": "SVM", "run": "0", "tuner": "Bayes", "best_params": {"C": "0.4369339947510315", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=1|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "1", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=1|tuner=Grid", "ir": "5", "model": "SVM", "run": "1", "tuner": "Grid", "best_params": {"C": "10", "gamma": "auto", "kernel": "rbf"}}
+{"key": "ir=5|model=SVM|run=1|tuner=Random", "ir": "5", "model": "SVM", "run": "1", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "auto", "C": "10"}}
+{"key": "ir=5|model=SVM|run=1|tuner=Bayes", "ir": "5", "model": "SVM", "run": "1", "tuner": "Bayes", "best_params": {"C": "0.03650385956845489", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=2|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "2", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=2|tuner=Grid", "ir": "5", "model": "SVM", "run": "2", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=2|tuner=Random", "ir": "5", "model": "SVM", "run": "2", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=5|model=SVM|run=2|tuner=Bayes", "ir": "5", "model": "SVM", "run": "2", "tuner": "Bayes", "best_params": {"C": "0.01958266577301071", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=3|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "3", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=3|tuner=Grid", "ir": "5", "model": "SVM", "run": "3", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=3|tuner=Random", "ir": "5", "model": "SVM", "run": "3", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "1"}}
+{"key": "ir=5|model=SVM|run=3|tuner=Bayes", "ir": "5", "model": "SVM", "run": "3", "tuner": "Bayes", "best_params": {"C": "0.022602638704471417", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=4|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "4", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=4|tuner=Grid", "ir": "5", "model": "SVM", "run": "4", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=4|tuner=Random", "ir": "5", "model": "SVM", "run": "4", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=5|model=SVM|run=4|tuner=Bayes", "ir": "5", "model": "SVM", "run": "4", "tuner": "Bayes", "best_params": {"C": "0.06436127337008024", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=5|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "5", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=5|tuner=Grid", "ir": "5", "model": "SVM", "run": "5", "tuner": "Grid", "best_params": {"C": "10", "gamma": "auto", "kernel": "rbf"}}
+{"key": "ir=5|model=SVM|run=5|tuner=Random", "ir": "5", "model": "SVM", "run": "5", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "auto", "C": "10"}}
+{"key": "ir=5|model=SVM|run=5|tuner=Bayes", "ir": "5", "model": "SVM", "run": "5", "tuner": "Bayes", "best_params": {"C": "0.4069023027716471", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=6|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "6", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=6|tuner=Grid", "ir": "5", "model": "SVM", "run": "6", "tuner": "Grid", "best_params": {"C": "1", "gamma": "auto", "kernel": "rbf"}}
+{"key": "ir=5|model=SVM|run=6|tuner=Random", "ir": "5", "model": "SVM", "run": "6", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "auto", "C": "1"}}
+{"key": "ir=5|model=SVM|run=6|tuner=Bayes", "ir": "5", "model": "SVM", "run": "6", "tuner": "Bayes", "best_params": {"C": "0.026116118634304953", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=7|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "7", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=7|tuner=Grid", "ir": "5", "model": "SVM", "run": "7", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=7|tuner=Random", "ir": "5", "model": "SVM", "run": "7", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "1"}}
+{"key": "ir=5|model=SVM|run=7|tuner=Bayes", "ir": "5", "model": "SVM", "run": "7", "tuner": "Bayes", "best_params": {"C": "1.5455396545501334", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=8|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "8", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=8|tuner=Grid", "ir": "5", "model": "SVM", "run": "8", "tuner": "Grid", "best_params": {"C": "10", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=5|model=SVM|run=8|tuner=Random", "ir": "5", "model": "SVM", "run": "8", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "scale", "C": "10"}}
+{"key": "ir=5|model=SVM|run=8|tuner=Bayes", "ir": "5", "model": "SVM", "run": "8", "tuner": "Bayes", "best_params": {"C": "0.42716609857109866", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=5|model=SVM|run=9|tuner=No-Tuning", "ir": "5", "model": "SVM", "run": "9", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=5|model=SVM|run=9|tuner=Grid", "ir": "5", "model": "SVM", "run": "9", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=5|model=SVM|run=9|tuner=Random", "ir": "5", "model": "SVM", "run": "9", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "1"}}
+{"key": "ir=5|model=SVM|run=9|tuner=Bayes", "ir": "5", "model": "SVM", "run": "9", "tuner": "Bayes", "best_params": {"C": "1.5756581945972483", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=10|model=XGBoost|run=0|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "0", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=0|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "0", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=0|tuner=Random", "ir": "10", "model": "XGBoost", "run": "0", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "100", "max_depth": "9", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=0|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "0", "tuner": "Bayes", "best_params": {"learning_rate": "0.24559483662363538", "max_depth": "4", "n_estimators": "200", "subsample": "0.9013823905781553"}}
+{"key": "ir=10|model=XGBoost|run=1|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "1", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=1|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "1", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "200", "subsample": "1.0"}}
+{"key": "ir=10|model=XGBoost|run=1|tuner=Random", "ir": "10", "model": "XGBoost", "run": "1", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "300", "max_depth": "3", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=1|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "1", "tuner": "Bayes", "best_params": {"learning_rate": "0.2551212253515276", "max_depth": "4", "n_estimators": "63", "subsample": "0.5348302168233487"}}
+{"key": "ir=10|model=XGBoost|run=2|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "2", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=2|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "2", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "5", "n_estimators": "100", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=2|tuner=Random", "ir": "10", "model": "XGBoost", "run": "2", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "200", "max_depth": "5", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=2|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "2", "tuner": "Bayes", "best_params": {"learning_rate": "0.29250914804454825", "max_depth": "5", "n_estimators": "171", "subsample": "0.5124530530440208"}}
+{"key": "ir=10|model=XGBoost|run=3|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "3", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=3|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "3", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=3|tuner=Random", "ir": "10", "model": "XGBoost", "run": "3", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "200", "max_depth": "9", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=3|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "3", "tuner": "Bayes", "best_params": {"learning_rate": "0.15601598817649592", "max_depth": "10", "n_estimators": "281", "subsample": "0.5894638498146835"}}
+{"key": "ir=10|model=XGBoost|run=4|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "4", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=4|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "4", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "5", "n_estimators": "200", "subsample": "1.0"}}
+{"key": "ir=10|model=XGBoost|run=4|tuner=Random", "ir": "10", "model": "XGBoost", "run": "4", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "100", "max_depth": "3", "learning_rate": "0.2"}}
+{"key": "ir=10|model=XGBoost|run=4|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "4", "tuner": "Bayes", "best_params": {"learning_rate": "0.29850948782934744", "max_depth": "7", "n_estimators": "277", "subsample": "0.9574765477612843"}}
+{"key": "ir=10|model=XGBoost|run=5|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "5", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=5|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "5", "tuner": "Grid", "best_params": {"learning_rate": "0.01", "max_depth": "5", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=5|tuner=Random", "ir": "10", "model": "XGBoost", "run": "5", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "100", "max_depth": "9", "learning_rate": "0.2"}}
+{"key": "ir=10|model=XGBoost|run=5|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "5", "tuner": "Bayes", "best_params": {"learning_rate": "0.3", "max_depth": "10", "n_estimators": "173", "subsample": "0.5"}}
+{"key": "ir=10|model=XGBoost|run=6|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "6", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=6|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "6", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "5", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=6|tuner=Random", "ir": "10", "model": "XGBoost", "run": "6", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "50", "max_depth": "5", "learning_rate": "0.2"}}
+{"key": "ir=10|model=XGBoost|run=6|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "6", "tuner": "Bayes", "best_params": {"learning_rate": "0.3", "max_depth": "6", "n_estimators": "300", "subsample": "0.6316636315153215"}}
+{"key": "ir=10|model=XGBoost|run=7|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "7", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=7|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "7", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "5", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=7|tuner=Random", "ir": "10", "model": "XGBoost", "run": "7", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "300", "max_depth": "5", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=7|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "7", "tuner": "Bayes", "best_params": {"learning_rate": "0.11636055541262129", "max_depth": "7", "n_estimators": "89", "subsample": "0.8665860005630537"}}
+{"key": "ir=10|model=XGBoost|run=8|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "8", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=8|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "8", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "100", "subsample": "1.0"}}
+{"key": "ir=10|model=XGBoost|run=8|tuner=Random", "ir": "10", "model": "XGBoost", "run": "8", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "50", "max_depth": "3", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=8|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "8", "tuner": "Bayes", "best_params": {"learning_rate": "0.17188274598345363", "max_depth": "5", "n_estimators": "256", "subsample": "0.9690055590666884"}}
+{"key": "ir=10|model=XGBoost|run=9|tuner=No-Tuning", "ir": "10", "model": "XGBoost", "run": "9", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=XGBoost|run=9|tuner=Grid", "ir": "10", "model": "XGBoost", "run": "9", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=10|model=XGBoost|run=9|tuner=Random", "ir": "10", "model": "XGBoost", "run": "9", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "100", "max_depth": "3", "learning_rate": "0.1"}}
+{"key": "ir=10|model=XGBoost|run=9|tuner=Bayes", "ir": "10", "model": "XGBoost", "run": "9", "tuner": "Bayes", "best_params": {"learning_rate": "0.20642794405768453", "max_depth": "3", "n_estimators": "114", "subsample": "0.7540003155809113"}}
+{"key": "ir=10|model=SVM|run=0|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "0", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=0|tuner=Grid", "ir": "10", "model": "SVM", "run": "0", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=0|tuner=Random", "ir": "10", "model": "SVM", "run": "0", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=10|model=SVM|run=0|tuner=Bayes", "ir": "10", "model": "SVM", "run": "0", "tuner": "Bayes", "best_params": {"C": "0.4369339947510315", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=1|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "1", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=1|tuner=Grid", "ir": "10", "model": "SVM", "run": "1", "tuner": "Grid", "best_params": {"C": "10", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=1|tuner=Random", "ir": "10", "model": "SVM", "run": "1", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=10|model=SVM|run=1|tuner=Bayes", "ir": "10", "model": "SVM", "run": "1", "tuner": "Bayes", "best_params": {"C": "0.010291792632937018", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=2|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "2", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=2|tuner=Grid", "ir": "10", "model": "SVM", "run": "2", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=10|model=SVM|run=2|tuner=Random", "ir": "10", "model": "SVM", "run": "2", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "scale", "C": "1"}}
+{"key": "ir=10|model=SVM|run=2|tuner=Bayes", "ir": "10", "model": "SVM", "run": "2", "tuner": "Bayes", "best_params": {"C": "0.6879270219677911", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=10|model=SVM|run=3|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "3", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=3|tuner=Grid", "ir": "10", "model": "SVM", "run": "3", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=3|tuner=Random", "ir": "10", "model": "SVM", "run": "3", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=10|model=SVM|run=3|tuner=Bayes", "ir": "10", "model": "SVM", "run": "3", "tuner": "Bayes", "best_params": {"C": "0.01", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=4|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "4", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=4|tuner=Grid", "ir": "10", "model": "SVM", "run": "4", "tuner": "Grid", "best_params": {"C": "10", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=10|model=SVM|run=4|tuner=Random", "ir": "10", "model": "SVM", "run": "4", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "scale", "C": "100"}}
+{"key": "ir=10|model=SVM|run=4|tuner=Bayes", "ir": "10", "model": "SVM", "run": "4", "tuner": "Bayes", "best_params": {"C": "75.80230751420659", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=10|model=SVM|run=5|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "5", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=5|tuner=Grid", "ir": "10", "model": "SVM", "run": "5", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=5|tuner=Random", "ir": "10", "model": "SVM", "run": "5", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=10|model=SVM|run=5|tuner=Bayes", "ir": "10", "model": "SVM", "run": "5", "tuner": "Bayes", "best_params": {"C": "0.028322430438923508", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=6|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "6", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=6|tuner=Grid", "ir": "10", "model": "SVM", "run": "6", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=6|tuner=Random", "ir": "10", "model": "SVM", "run": "6", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=10|model=SVM|run=6|tuner=Bayes", "ir": "10", "model": "SVM", "run": "6", "tuner": "Bayes", "best_params": {"C": "0.12205058249949371", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=7|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "7", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=7|tuner=Grid", "ir": "10", "model": "SVM", "run": "7", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=7|tuner=Random", "ir": "10", "model": "SVM", "run": "7", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=10|model=SVM|run=7|tuner=Bayes", "ir": "10", "model": "SVM", "run": "7", "tuner": "Bayes", "best_params": {"C": "0.14404002088834378", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=8|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "8", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=8|tuner=Grid", "ir": "10", "model": "SVM", "run": "8", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=10|model=SVM|run=8|tuner=Random", "ir": "10", "model": "SVM", "run": "8", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=10|model=SVM|run=8|tuner=Bayes", "ir": "10", "model": "SVM", "run": "8", "tuner": "Bayes", "best_params": {"C": "0.023892558274425914", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=9|tuner=No-Tuning", "ir": "10", "model": "SVM", "run": "9", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=10|model=SVM|run=9|tuner=Grid", "ir": "10", "model": "SVM", "run": "9", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=10|model=SVM|run=9|tuner=Random", "ir": "10", "model": "SVM", "run": "9", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=10|model=SVM|run=9|tuner=Bayes", "ir": "10", "model": "SVM", "run": "9", "tuner": "Bayes", "best_params": {"C": "0.01191756735607197", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=15|model=XGBoost|run=0|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "0", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=0|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "0", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=15|model=XGBoost|run=0|tuner=Random", "ir": "15", "model": "XGBoost", "run": "0", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "300", "max_depth": "9", "learning_rate": "0.1"}}
+{"key": "ir=15|model=XGBoost|run=0|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "0", "tuner": "Bayes", "best_params": {"learning_rate": "0.128930148067461", "max_depth": "8", "n_estimators": "283", "subsample": "0.6578997967435244"}}
+{"key": "ir=15|model=XGBoost|run=1|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "1", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=1|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "1", "tuner": "Grid", "best_params": {"learning_rate": "0.01", "max_depth": "3", "n_estimators": "100", "subsample": "1.0"}}
+{"key": "ir=15|model=XGBoost|run=1|tuner=Random", "ir": "15", "model": "XGBoost", "run": "1", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "300", "max_depth": "9", "learning_rate": "0.05"}}
+{"key": "ir=15|model=XGBoost|run=1|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "1", "tuner": "Bayes", "best_params": {"learning_rate": "0.2926312163102858", "max_depth": "6", "n_estimators": "76", "subsample": "0.5"}}
+{"key": "ir=15|model=XGBoost|run=2|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "2", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=2|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "2", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "100", "subsample": "0.8"}}
+{"key": "ir=15|model=XGBoost|run=2|tuner=Random", "ir": "15", "model": "XGBoost", "run": "2", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "100", "max_depth": "5", "learning_rate": "0.05"}}
+{"key": "ir=15|model=XGBoost|run=2|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "2", "tuner": "Bayes", "best_params": {"learning_rate": "0.16379551204802192", "max_depth": "4", "n_estimators": "234", "subsample": "0.7007955954400271"}}
+{"key": "ir=15|model=XGBoost|run=3|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "3", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=3|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "3", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "100", "subsample": "0.8"}}
+{"key": "ir=15|model=XGBoost|run=3|tuner=Random", "ir": "15", "model": "XGBoost", "run": "3", "tuner": "Random", "best_params": {"subsample": "0.6", "n_estimators": "200", "max_depth": "7", "learning_rate": "0.2"}}
+{"key": "ir=15|model=XGBoost|run=3|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "3", "tuner": "Bayes", "best_params": {"learning_rate": "0.22712462465759836", "max_depth": "9", "n_estimators": "107", "subsample": "0.665366319943666"}}
+{"key": "ir=15|model=XGBoost|run=4|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "4", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=4|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "4", "tuner": "Grid", "best_params": {"learning_rate": "0.01", "max_depth": "3", "n_estimators": "100", "subsample": "1.0"}}
+{"key": "ir=15|model=XGBoost|run=4|tuner=Random", "ir": "15", "model": "XGBoost", "run": "4", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "50", "max_depth": "7", "learning_rate": "0.01"}}
+{"key": "ir=15|model=XGBoost|run=4|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "4", "tuner": "Bayes", "best_params": {"learning_rate": "0.011494457752825833", "max_depth": "8", "n_estimators": "50", "subsample": "0.7967587792612665"}}
+{"key": "ir=15|model=XGBoost|run=5|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "5", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=5|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "5", "tuner": "Grid", "best_params": {"learning_rate": "0.01", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=15|model=XGBoost|run=5|tuner=Random", "ir": "15", "model": "XGBoost", "run": "5", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "300", "max_depth": "7", "learning_rate": "0.2"}}
+{"key": "ir=15|model=XGBoost|run=5|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "5", "tuner": "Bayes", "best_params": {"learning_rate": "0.10283933758417838", "max_depth": "5", "n_estimators": "50", "subsample": "0.8437284441044719"}}
+{"key": "ir=15|model=XGBoost|run=6|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "6", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=6|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "6", "tuner": "Grid", "best_params": {"learning_rate": "0.01", "max_depth": "5", "n_estimators": "100", "subsample": "1.0"}}
+{"key": "ir=15|model=XGBoost|run=6|tuner=Random", "ir": "15", "model": "XGBoost", "run": "6", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "50", "max_depth": "7", "learning_rate": "0.01"}}
+{"key": "ir=15|model=XGBoost|run=6|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "6", "tuner": "Bayes", "best_params": {"learning_rate": "0.010533362328220162", "max_depth": "5", "n_estimators": "108", "subsample": "0.9855555359865682"}}
+{"key": "ir=15|model=XGBoost|run=7|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "7", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=7|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "7", "tuner": "Grid", "best_params": {"learning_rate": "0.1", "max_depth": "3", "n_estimators": "100", "subsample": "1.0"}}
+{"key": "ir=15|model=XGBoost|run=7|tuner=Random", "ir": "15", "model": "XGBoost", "run": "7", "tuner": "Random", "best_params": {"subsample": "0.8", "n_estimators": "100", "max_depth": "3", "learning_rate": "0.2"}}
+{"key": "ir=15|model=XGBoost|run=7|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "7", "tuner": "Bayes", "best_params": {"learning_rate": "0.19186533147678916", "max_depth": "4", "n_estimators": "66", "subsample": "0.6990553259245859"}}
+{"key": "ir=15|model=XGBoost|run=8|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "8", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=8|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "8", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "200", "subsample": "0.8"}}
+{"key": "ir=15|model=XGBoost|run=8|tuner=Random", "ir": "15", "model": "XGBoost", "run": "8", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "300", "max_depth": "5", "learning_rate": "0.2"}}
+{"key": "ir=15|model=XGBoost|run=8|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "8", "tuner": "Bayes", "best_params": {"learning_rate": "0.25968697119179823", "max_depth": "6", "n_estimators": "175", "subsample": "0.9488941435790568"}}
+{"key": "ir=15|model=XGBoost|run=9|tuner=No-Tuning", "ir": "15", "model": "XGBoost", "run": "9", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=XGBoost|run=9|tuner=Grid", "ir": "15", "model": "XGBoost", "run": "9", "tuner": "Grid", "best_params": {"learning_rate": "0.05", "max_depth": "3", "n_estimators": "100", "subsample": "1.0"}}
+{"key": "ir=15|model=XGBoost|run=9|tuner=Random", "ir": "15", "model": "XGBoost", "run": "9", "tuner": "Random", "best_params": {"subsample": "1.0", "n_estimators": "100", "max_depth": "9", "learning_rate": "0.2"}}
+{"key": "ir=15|model=XGBoost|run=9|tuner=Bayes", "ir": "15", "model": "XGBoost", "run": "9", "tuner": "Bayes", "best_params": {"learning_rate": "0.20642794405768453", "max_depth": "3", "n_estimators": "114", "subsample": "0.7540003155809113"}}
+{"key": "ir=15|model=SVM|run=0|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "0", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=0|tuner=Grid", "ir": "15", "model": "SVM", "run": "0", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=0|tuner=Random", "ir": "15", "model": "SVM", "run": "0", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "1"}}
+{"key": "ir=15|model=SVM|run=0|tuner=Bayes", "ir": "15", "model": "SVM", "run": "0", "tuner": "Bayes", "best_params": {"C": "0.4369339947510315", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=1|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "1", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=1|tuner=Grid", "ir": "15", "model": "SVM", "run": "1", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=1|tuner=Random", "ir": "15", "model": "SVM", "run": "1", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=15|model=SVM|run=1|tuner=Bayes", "ir": "15", "model": "SVM", "run": "1", "tuner": "Bayes", "best_params": {"C": "0.010291792632937018", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=2|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "2", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=2|tuner=Grid", "ir": "15", "model": "SVM", "run": "2", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=2|tuner=Random", "ir": "15", "model": "SVM", "run": "2", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "1"}}
+{"key": "ir=15|model=SVM|run=2|tuner=Bayes", "ir": "15", "model": "SVM", "run": "2", "tuner": "Bayes", "best_params": {"C": "1.3222616665301894", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=3|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "3", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=3|tuner=Grid", "ir": "15", "model": "SVM", "run": "3", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=3|tuner=Random", "ir": "15", "model": "SVM", "run": "3", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=15|model=SVM|run=3|tuner=Bayes", "ir": "15", "model": "SVM", "run": "3", "tuner": "Bayes", "best_params": {"C": "0.144248260650702", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=4|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "4", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=4|tuner=Grid", "ir": "15", "model": "SVM", "run": "4", "tuner": "Grid", "best_params": {"C": "10", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=15|model=SVM|run=4|tuner=Random", "ir": "15", "model": "SVM", "run": "4", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "scale", "C": "10"}}
+{"key": "ir=15|model=SVM|run=4|tuner=Bayes", "ir": "15", "model": "SVM", "run": "4", "tuner": "Bayes", "best_params": {"C": "0.06436127337008024", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=5|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "5", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=5|tuner=Grid", "ir": "15", "model": "SVM", "run": "5", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=15|model=SVM|run=5|tuner=Random", "ir": "15", "model": "SVM", "run": "5", "tuner": "Random", "best_params": {"kernel": "rbf", "gamma": "scale", "C": "100"}}
+{"key": "ir=15|model=SVM|run=5|tuner=Bayes", "ir": "15", "model": "SVM", "run": "5", "tuner": "Bayes", "best_params": {"C": "99.53974903261297", "gamma": "scale", "kernel": "rbf"}}
+{"key": "ir=15|model=SVM|run=6|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "6", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=6|tuner=Grid", "ir": "15", "model": "SVM", "run": "6", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=6|tuner=Random", "ir": "15", "model": "SVM", "run": "6", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=15|model=SVM|run=6|tuner=Bayes", "ir": "15", "model": "SVM", "run": "6", "tuner": "Bayes", "best_params": {"C": "0.03724399562516481", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=7|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "7", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=7|tuner=Grid", "ir": "15", "model": "SVM", "run": "7", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=7|tuner=Random", "ir": "15", "model": "SVM", "run": "7", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.1"}}
+{"key": "ir=15|model=SVM|run=7|tuner=Bayes", "ir": "15", "model": "SVM", "run": "7", "tuner": "Bayes", "best_params": {"C": "0.052098468300420094", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=8|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "8", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=8|tuner=Grid", "ir": "15", "model": "SVM", "run": "8", "tuner": "Grid", "best_params": {"C": "0.1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=8|tuner=Random", "ir": "15", "model": "SVM", "run": "8", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "0.01"}}
+{"key": "ir=15|model=SVM|run=8|tuner=Bayes", "ir": "15", "model": "SVM", "run": "8", "tuner": "Bayes", "best_params": {"C": "0.01", "gamma": "auto", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=9|tuner=No-Tuning", "ir": "15", "model": "SVM", "run": "9", "tuner": "No-Tuning", "best_params": {}}
+{"key": "ir=15|model=SVM|run=9|tuner=Grid", "ir": "15", "model": "SVM", "run": "9", "tuner": "Grid", "best_params": {"C": "1", "gamma": "scale", "kernel": "linear"}}
+{"key": "ir=15|model=SVM|run=9|tuner=Random", "ir": "15", "model": "SVM", "run": "9", "tuner": "Random", "best_params": {"kernel": "linear", "gamma": "scale", "C": "1"}}
+{"key": "ir=15|model=SVM|run=9|tuner=Bayes", "ir": "15", "model": "SVM", "run": "9", "tuner": "Bayes", "best_params": {"C": "1.5756581945972483", "gamma": "auto", "kernel": "linear"}}

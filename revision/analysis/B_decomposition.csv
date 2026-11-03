@@ -1,0 +1,17 @@
+metric,dataset,total,contaminated_training,synthetic_test
+f1,Lung Cancer,0.0422,0.0257,0.0165
+f1,BreastCancer,0.0021,0.003,-0.0009
+f1,CervicalCancer,0.0213,0.0102,0.0111
+f1,All,0.0219,0.013,0.0089
+auc,Lung Cancer,0.0454,0.0261,0.0193
+auc,BreastCancer,0.0027,0.0007,0.002
+auc,CervicalCancer,0.0718,0.0589,0.0129
+auc,All,0.04,0.0285,0.0114
+mcc,Lung Cancer,0.259,0.1146,0.1444
+mcc,BreastCancer,0.0085,0.0066,0.0019
+mcc,CervicalCancer,0.2891,0.0836,0.2054
+mcc,All,0.1855,0.0683,0.1173
+recall_min,Lung Cancer,0.2469,0.1648,0.082
+recall_min,BreastCancer,0.0099,0.0068,0.0031
+recall_min,CervicalCancer,0.2101,0.1102,0.0998
+recall_min,All,0.1556,0.094,0.0616

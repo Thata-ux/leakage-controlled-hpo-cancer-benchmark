@@ -1,0 +1,25 @@
+metric,procedure,n_combinations,combinations
+f1,"Wilcoxon, uncorrected",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+f1,"Wilcoxon, Holm (36)",0,
+f1,"paired t, naive",5,BreastCancer/LightGBM; CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+f1,"NB-corrected t, uncorrected",1,CervicalCancer/XGBoost
+f1,"NB-corrected t, Holm within combination (3)",0,
+f1,"NB-corrected t, Holm across 36",0,
+mcc,"Wilcoxon, uncorrected",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+mcc,"Wilcoxon, Holm (36)",0,
+mcc,"paired t, naive",5,BreastCancer/LightGBM; CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+mcc,"NB-corrected t, uncorrected",3,CervicalCancer/LightGBM; CervicalCancer/SVM; CervicalCancer/XGBoost
+mcc,"NB-corrected t, Holm within combination (3)",2,CervicalCancer/SVM; CervicalCancer/XGBoost
+mcc,"NB-corrected t, Holm across 36",0,
+recall_min,"Wilcoxon, uncorrected",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+recall_min,"Wilcoxon, Holm (36)",0,
+recall_min,"paired t, naive",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+recall_min,"NB-corrected t, uncorrected",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+recall_min,"NB-corrected t, Holm within combination (3)",3,CervicalCancer/LightGBM; CervicalCancer/SVM; CervicalCancer/XGBoost
+recall_min,"NB-corrected t, Holm across 36",0,
+bal_acc,"Wilcoxon, uncorrected",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+bal_acc,"Wilcoxon, Holm (36)",0,
+bal_acc,"paired t, naive",5,BreastCancer/LightGBM; CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+bal_acc,"NB-corrected t, uncorrected",4,CervicalCancer/LightGBM; CervicalCancer/RandomForest; CervicalCancer/SVM; CervicalCancer/XGBoost
+bal_acc,"NB-corrected t, Holm within combination (3)",2,CervicalCancer/SVM; CervicalCancer/XGBoost
+bal_acc,"NB-corrected t, Holm across 36",0,

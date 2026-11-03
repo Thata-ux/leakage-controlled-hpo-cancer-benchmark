@@ -1,0 +1,81 @@
+model,tuner,objective,metric,diff,lo,hi,p
+XGBoost,Grid,MCC,sens,0.0,0.0,0.0,1.0
+XGBoost,Grid,MCC,spec,-0.0006,-0.0034,0.0021,0.6059
+XGBoost,Grid,MCC,mcc,-0.0025,-0.013,0.008,0.6059
+XGBoost,Grid,MCC,sens_at_spec90,0.0091,-0.0294,0.0476,0.6059
+XGBoost,Grid,MCC,f1,-0.0005,-0.0025,0.0016,0.6059
+XGBoost,Grid,balanced accuracy,sens,0.0182,-0.0588,0.0951,0.6059
+XGBoost,Grid,balanced accuracy,spec,-0.0032,-0.0093,0.0029,0.2625
+XGBoost,Grid,balanced accuracy,mcc,-0.0035,-0.0673,0.0603,0.9038
+XGBoost,Grid,balanced accuracy,sens_at_spec90,0.0091,-0.0294,0.0476,0.6059
+XGBoost,Grid,balanced accuracy,f1,-0.0013,-0.0095,0.0069,0.7348
+XGBoost,Random,MCC,sens,0.0545,-0.1097,0.2188,0.4717
+XGBoost,Random,MCC,spec,-0.0013,-0.0067,0.0041,0.6059
+XGBoost,Random,MCC,mcc,0.0307,-0.059,0.1204,0.4585
+XGBoost,Random,MCC,sens_at_spec90,0.0091,-0.0294,0.0476,0.6059
+XGBoost,Random,MCC,f1,0.0029,-0.0055,0.0114,0.4482
+XGBoost,Random,balanced accuracy,sens,0.0545,-0.1097,0.2188,0.4717
+XGBoost,Random,balanced accuracy,spec,-0.0083,-0.026,0.0093,0.3133
+XGBoost,Random,balanced accuracy,mcc,-0.0013,-0.1372,0.1346,0.9831
+XGBoost,Random,balanced accuracy,sens_at_spec90,0.0091,-0.0294,0.0476,0.6059
+XGBoost,Random,balanced accuracy,f1,-0.0025,-0.0205,0.0155,0.7609
+RandomForest,Grid,MCC,sens,0.0,0.0,0.0,1.0
+RandomForest,Grid,MCC,spec,0.0,0.0,0.0,1.0
+RandomForest,Grid,MCC,mcc,0.0,0.0,0.0,1.0
+RandomForest,Grid,MCC,sens_at_spec90,0.0,0.0,0.0,1.0
+RandomForest,Grid,MCC,f1,0.0,0.0,0.0,1.0
+RandomForest,Grid,balanced accuracy,sens,0.0273,-0.0881,0.1427,0.6059
+RandomForest,Grid,balanced accuracy,spec,0.0,0.0,0.0,1.0
+RandomForest,Grid,balanced accuracy,mcc,0.018,-0.0582,0.0942,0.6059
+RandomForest,Grid,balanced accuracy,sens_at_spec90,0.0091,-0.0294,0.0476,0.6059
+RandomForest,Grid,balanced accuracy,f1,0.002,-0.0063,0.0103,0.6059
+RandomForest,Random,MCC,sens,0.0727,-0.0768,0.2223,0.2999
+RandomForest,Random,MCC,spec,-0.0006,-0.0034,0.0021,0.6059
+RandomForest,Random,MCC,mcc,0.0469,-0.0503,0.1442,0.3032
+RandomForest,Random,MCC,sens_at_spec90,0.0,0.0,0.0,1.0
+RandomForest,Random,MCC,f1,0.0048,-0.0052,0.0148,0.3021
+RandomForest,Random,balanced accuracy,sens,0.0818,-0.0638,0.2275,0.2357
+RandomForest,Random,balanced accuracy,spec,-0.0026,-0.0109,0.0057,0.5017
+RandomForest,Random,balanced accuracy,mcc,0.0436,-0.0701,0.1574,0.4078
+RandomForest,Random,balanced accuracy,sens_at_spec90,-0.0091,-0.0476,0.0294,0.6059
+RandomForest,Random,balanced accuracy,f1,0.004,-0.0092,0.0172,0.5128
+SVM,Grid,MCC,sens,0.0,0.0,0.0,1.0
+SVM,Grid,MCC,spec,0.0,0.0,0.0,1.0
+SVM,Grid,MCC,mcc,0.0,0.0,0.0,1.0
+SVM,Grid,MCC,sens_at_spec90,0.0,0.0,0.0,1.0
+SVM,Grid,MCC,f1,0.0,0.0,0.0,1.0
+SVM,Grid,balanced accuracy,sens,0.0455,-0.0406,0.1315,0.2625
+SVM,Grid,balanced accuracy,spec,-0.0218,-0.0447,0.0012,0.0602
+SVM,Grid,balanced accuracy,mcc,-0.0362,-0.0908,0.0184,0.1676
+SVM,Grid,balanced accuracy,sens_at_spec90,0.0091,-0.06,0.0782,0.7726
+SVM,Grid,balanced accuracy,f1,-0.0125,-0.0266,0.0016,0.0762
+SVM,Random,MCC,sens,0.0,0.0,0.0,1.0
+SVM,Random,MCC,spec,0.0,0.0,0.0,1.0
+SVM,Random,MCC,mcc,0.0,0.0,0.0,1.0
+SVM,Random,MCC,sens_at_spec90,0.0,0.0,0.0,1.0
+SVM,Random,MCC,f1,0.0,0.0,0.0,1.0
+SVM,Random,balanced accuracy,sens,0.0,0.0,0.0,1.0
+SVM,Random,balanced accuracy,spec,0.0,0.0,0.0,1.0
+SVM,Random,balanced accuracy,mcc,0.0,0.0,0.0,1.0
+SVM,Random,balanced accuracy,sens_at_spec90,0.0,0.0,0.0,1.0
+SVM,Random,balanced accuracy,f1,0.0,0.0,0.0,1.0
+LightGBM,Grid,MCC,sens,0.0091,-0.0294,0.0476,0.6059
+LightGBM,Grid,MCC,spec,-0.0006,-0.0055,0.0042,0.7726
+LightGBM,Grid,MCC,mcc,0.0016,-0.0167,0.02,0.8437
+LightGBM,Grid,MCC,sens_at_spec90,0.0,0.0,0.0,1.0
+LightGBM,Grid,MCC,f1,0.0001,-0.003,0.0031,0.9492
+LightGBM,Grid,balanced accuracy,sens,0.0273,-0.0548,0.1094,0.4717
+LightGBM,Grid,balanced accuracy,spec,-0.0026,-0.0098,0.0047,0.4433
+LightGBM,Grid,balanced accuracy,mcc,0.0054,-0.0354,0.0463,0.7708
+LightGBM,Grid,balanced accuracy,sens_at_spec90,-0.0091,-0.0476,0.0294,0.6059
+LightGBM,Grid,balanced accuracy,f1,0.0001,-0.0045,0.0046,0.9791
+LightGBM,Random,MCC,sens,0.0364,-0.0812,0.1539,0.5017
+LightGBM,Random,MCC,spec,-0.0013,-0.008,0.0055,0.6783
+LightGBM,Random,MCC,mcc,0.0167,-0.0349,0.0682,0.4831
+LightGBM,Random,MCC,sens_at_spec90,0.0,0.0,0.0,1.0
+LightGBM,Random,MCC,f1,0.0015,-0.0027,0.0057,0.4297
+LightGBM,Random,balanced accuracy,sens,0.0455,-0.0728,0.1637,0.4071
+LightGBM,Random,balanced accuracy,spec,-0.0038,-0.0131,0.0054,0.3701
+LightGBM,Random,balanced accuracy,mcc,0.0088,-0.0654,0.0831,0.7934
+LightGBM,Random,balanced accuracy,sens_at_spec90,0.0,0.0,0.0,1.0
+LightGBM,Random,balanced accuracy,f1,0.0001,-0.0084,0.0086,0.9849

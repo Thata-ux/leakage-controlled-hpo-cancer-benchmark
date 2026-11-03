@@ -1,0 +1,4 @@
+dataset,n_rows,n_num,n_cat,cat_levels,all_nan_dropped,n_features_after_encoding,cols_with_missing,max_missing_share,onehot,target_mapping
+Lung Cancer,276,14,1,"{""GENDER"": [""F"", ""M""]}",[],16,0,0.0,"OneHotEncoder(handle_unknown=ignore, drop=None) — biner menghasilkan 2 kolom saling komplemen","{""NO"": 0, ""YES"": 1}"
+BreastCancer,569,31,0,{},"[""Unnamed: 32""]",30,1,1.0,"OneHotEncoder(handle_unknown=ignore, drop=None) — biner menghasilkan 2 kolom saling komplemen","{""B"": 0, ""M"": 1}"
+CervicalCancer,835,35,0,{},[],35,26,0.915,"OneHotEncoder(handle_unknown=ignore, drop=None) — biner menghasilkan 2 kolom saling komplemen",{}

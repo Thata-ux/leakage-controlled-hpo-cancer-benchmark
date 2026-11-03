@@ -1,0 +1,49 @@
+sampler,model,tuner,f1,mcc,recall_min,sens,spec
+ros,LightGBM,Bayes,0.8888,0.5892,0.7125,0.9146,0.7125
+ros,LightGBM,Grid,0.8963,0.632,0.8,0.9042,0.8
+ros,LightGBM,No-Tuning,0.8791,0.5361,0.65,0.9146,0.65
+ros,LightGBM,Random,0.8862,0.5878,0.7375,0.9042,0.7375
+ros,RandomForest,Bayes,0.9105,0.6741,0.8125,0.9208,0.8125
+ros,RandomForest,Grid,0.906,0.6479,0.775,0.9229,0.775
+ros,RandomForest,No-Tuning,0.9154,0.6694,0.7375,0.9438,0.7375
+ros,RandomForest,Random,0.9036,0.6472,0.7875,0.9167,0.7875
+ros,SVM,Bayes,0.8984,0.6367,0.8,0.9062,0.8
+ros,SVM,Grid,0.9081,0.6723,0.8375,0.9125,0.8375
+ros,SVM,No-Tuning,0.9019,0.6518,0.825,0.9062,0.825
+ros,SVM,Random,0.9109,0.6813,0.825,0.9188,0.825
+ros,XGBoost,Bayes,0.9024,0.6468,0.775,0.9188,0.775
+ros,XGBoost,Grid,0.9058,0.675,0.8625,0.9042,0.8625
+ros,XGBoost,No-Tuning,0.8853,0.5567,0.6625,0.9188,0.6625
+ros,XGBoost,Random,0.903,0.6497,0.8,0.9146,0.8
+smote (one-hot),LightGBM,Bayes,0.894,0.5847,0.6375,0.9375,0.6375
+smote (one-hot),LightGBM,Grid,0.8992,0.608,0.6875,0.9333,0.6875
+smote (one-hot),LightGBM,No-Tuning,0.9002,0.6106,0.675,0.9375,0.675
+smote (one-hot),LightGBM,Random,0.899,0.6049,0.675,0.9354,0.675
+smote (one-hot),RandomForest,Bayes,0.9064,0.6286,0.6875,0.9417,0.6875
+smote (one-hot),RandomForest,Grid,0.9264,0.7063,0.7375,0.9583,0.7375
+smote (one-hot),RandomForest,No-Tuning,0.9259,0.7095,0.775,0.95,0.775
+smote (one-hot),RandomForest,Random,0.9243,0.6982,0.725,0.9583,0.725
+smote (one-hot),SVM,Bayes,0.9025,0.6434,0.7875,0.9146,0.7875
+smote (one-hot),SVM,Grid,0.9111,0.6716,0.7875,0.9271,0.7875
+smote (one-hot),SVM,No-Tuning,0.9127,0.6726,0.775,0.9312,0.775
+smote (one-hot),SVM,Random,0.905,0.6488,0.775,0.9208,0.775
+smote (one-hot),XGBoost,Bayes,0.9011,0.6092,0.675,0.9375,0.675
+smote (one-hot),XGBoost,Grid,0.8998,0.6097,0.6875,0.9333,0.6875
+smote (one-hot),XGBoost,No-Tuning,0.9011,0.6168,0.675,0.9375,0.675
+smote (one-hot),XGBoost,Random,0.9022,0.6216,0.7,0.9333,0.7
+smotenc,LightGBM,Bayes,0.9058,0.6419,0.7375,0.9312,0.7375
+smotenc,LightGBM,Grid,0.8979,0.6117,0.7125,0.925,0.7125
+smotenc,LightGBM,No-Tuning,0.8918,0.5728,0.625,0.9375,0.625
+smotenc,LightGBM,Random,0.8969,0.597,0.675,0.9333,0.675
+smotenc,RandomForest,Bayes,0.9072,0.6412,0.7,0.9396,0.7
+smotenc,RandomForest,Grid,0.9238,0.7038,0.7625,0.95,0.7625
+smotenc,RandomForest,No-Tuning,0.9262,0.7149,0.775,0.95,0.775
+smotenc,RandomForest,Random,0.9194,0.6828,0.725,0.9521,0.725
+smotenc,SVM,Bayes,0.8917,0.6011,0.7375,0.9104,0.7375
+smotenc,SVM,Grid,0.8978,0.617,0.75,0.9167,0.75
+smotenc,SVM,No-Tuning,0.9074,0.6502,0.75,0.9292,0.75
+smotenc,SVM,Random,0.892,0.6013,0.75,0.9083,0.75
+smotenc,XGBoost,Bayes,0.896,0.5888,0.6625,0.9333,0.6625
+smotenc,XGBoost,Grid,0.9128,0.6632,0.75,0.9375,0.75
+smotenc,XGBoost,No-Tuning,0.8961,0.5931,0.65,0.9354,0.65
+smotenc,XGBoost,Random,0.9049,0.628,0.7,0.9375,0.7
