@@ -1,4 +1,4 @@
-# Revision 1 (IJIES Paper ID 20266848) — release v1.1-revision
+# Revisions (IJIES Paper ID 20266848) — releases v1.1-revision and v1.2.0
 
 This folder holds everything added for the major revision. The original benchmark (S7) is unchanged in the repository root.
 
@@ -27,3 +27,9 @@ Every tuner used `StratifiedKFold(n_splits=5, shuffle=True, random_state=seed)` 
 ```
 python scripts/make_inner_folds.py results/split_indices.csv results/inner_fold_indices.csv
 ```
+
+## Second revision (v1.2.0): selection-aware analysis
+- `scripts/selection_aware2.py` → `analysis/R2_selection_aware_protocols.csv` and `analysis/R2_selection_aware_per_combination.csv`. This is the confirmatory dataset-level analysis: in each run, the tuner with the highest inner cross-validated weighted F1 (training data only) is used for each classifier. It produces Table 5, column 4 of Table 10 and Fig. 2.
+- `scripts/selection_aware.py` → `analysis/R2_selection_aware.csv`. It gives the prespecified-tuner analysis (Holm over 9 contrasts) and the exploratory best-test-mean estimates.
+- `scripts/reproduce_all.sh` reruns every analysis script from the released files; `scripts/prepare_inputs.py` collects the original S7 run-level files from `supplementary/`.
+- `figures/` holds Figs. 1–4 of the accepted version.

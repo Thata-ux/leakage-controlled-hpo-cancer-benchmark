@@ -27,7 +27,7 @@ for d in ['Lung Cancer', 'BreastCancer', 'CervicalCancer']:
         b = P[ALT].mean().idxmax(); diff = (P[b] - P['No-Tuning']).values; per.append(diff)
         rows.append((f'{DSN[d]} · {MDN[m]} ({b.lower() if b != "Bayes" else "Bayesian"})', *nb(diff), False))
     rows.append((f'{DSN[d]}: pooled over classifiers', *nb(np.mean(per, axis=0)), True))
-fig, ax = plt.subplots(figsize=(6.7, 5.2))
+fig, ax = plt.subplots(figsize=(5.6, 3.9))
 n = len(rows)
 for i, (lab, m, lo, hi, pooled) in enumerate(rows):
     y = n - i
@@ -39,10 +39,10 @@ for i, (lab, m, lo, hi, pooled) in enumerate(rows):
 ax.set_yticks(range(n, 0, -1)); ax.set_yticklabels([r[0] for r in rows])
 for t, r in zip(ax.get_yticklabels(), rows):
     if r[4]: t.set_fontweight('bold')
-ax.axvline(0, color='#0b0b0b', lw=0.9, ls='--'); ax.grid(axis='x', **GRID); ax.set_axisbelow(True)
+ax.axvline(0, color='#0b0b0b', lw=0.9, ls='--'); ax.set_xticks([-0.06, -0.04, -0.02, 0, 0.02, 0.04, 0.06]); ax.xaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter('%.2f')); ax.grid(axis='x', **GRID); ax.set_axisbelow(True)
 ax.set_xlabel('Paired weighted-F1 gain vs. no tuning (corrected 95% CI)')
 ax.legend(handles=[Line2D([], [], color='#2a78d6', marker='s', lw=2, label='CI excludes zero'), Line2D([], [], color='#8a8984', marker='s', lw=2, label='CI includes zero'),
-                   Line2D([], [], color='#0d366b', marker='D', lw=0, ms=7, label='Dataset-level pooled')], loc='upper center', bbox_to_anchor=(0.35, -0.11), ncol=3, frameon=False, columnspacing=1.0, handletextpad=0.4)
+                   Line2D([], [], color='#0d366b', marker='D', lw=0, ms=7, label='Dataset-level pooled')], loc='upper center', bbox_to_anchor=(0.3, -0.14), ncol=3, frameon=False, columnspacing=1.0, handletextpad=0.4)
 fig.tight_layout(); fig.savefig(f'{OUT}/image3.png', bbox_inches='tight'); plt.close(fig)
 
 # ---------------- runtime scatter at print size
@@ -72,7 +72,7 @@ lfk = A.set_index(key); bk = B.set_index(key)
 ps = S4b[S4b.Protocol == 'Leak-PreSplit'].rename(columns={'Dataset': 'dataset', 'Model': 'model', 'Tuner': 'tuner'}).set_index(key)
 pcv = S4b[S4b.Protocol == 'Leak-PreCV'].rename(columns={'Dataset': 'dataset', 'Model': 'model', 'Tuner': 'tuner'}).set_index(key)
 DS = ['Lung Cancer', 'BreastCancer', 'CervicalCancer']
-fig, axs = plt.subplots(1, 2, figsize=(6.7, 3.0), gridspec_kw=dict(width_ratios=[1, 1.15]))
+fig, axs = plt.subplots(1, 2, figsize=(6.7, 2.4), gridspec_kw=dict(width_ratios=[1, 1.15]))
 ax = axs[0]; xs = np.arange(3); w = 0.34
 for j, met in enumerate(['f1', 'mcc']):
     con = [(bk[met] - lfk[met]).dropna().xs(d, level=0).mean() for d in DS]
@@ -82,7 +82,7 @@ for j, met in enumerate(['f1', 'mcc']):
     ax.bar(x, syn, w - 0.04, bottom=con, color='#eb6834' if met == 'mcc' else '#f2a07f', label=f'{met.upper() if met=="mcc" else "F1"}: synthetic test cases')
 ax.set_xticks(xs); ax.set_xticklabels([DSN[d] for d in DS]); ax.axhline(0, color='#0b0b0b', lw=0.8)
 ax.set_ylabel('Mean inflation vs. leakage-free'); ax.set_title('Pre-split leakage, decomposed'); ax.grid(axis='y', **GRID); ax.set_axisbelow(True)
-ax.legend(frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.12), ncol=1)
+LH = ax.get_legend_handles_labels()
 ax = axs[1]
 PC = [('Leakage-free', lfk, '#8a8984'), ('Pre-split, original test', bk, '#2a78d6'), ('Pre-split', ps, '#4a3aa7'), ('Pre-CV', pcv, '#e87ba4')]
 w = 0.2
@@ -93,6 +93,9 @@ for j, (nm, df, c) in enumerate(PC):
     ax.bar(xs + (j - 1.5) * w, mu, w - 0.03, color=c, label=nm, yerr=se, error_kw=dict(ecolor='#52514e', lw=0.8, capsize=2))
 ax.axhline(0, color='#0b0b0b', lw=0.8); ax.set_xticks(xs); ax.set_xticklabels([DSN[d] for d in DS])
 ax.set_ylabel('CV F1 − test F1'); ax.set_title('Optimism gap of tuned models'); ax.grid(axis='y', **GRID); ax.set_axisbelow(True)
-ax.legend(frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.12), ncol=1)
-fig.tight_layout(); fig.savefig(f'{OUT}/image7.png', bbox_inches='tight'); plt.close(fig)
+RH = ax.get_legend_handles_labels()
+fig.tight_layout(rect=(0, 0.0, 1, 1))
+fig.legend(*LH, frameon=False, loc='upper center', bbox_to_anchor=(0.5, 0.0), ncol=2, columnspacing=1.2, handletextpad=0.4)
+fig.legend(*RH, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.2), ncol=4, columnspacing=1.0, handletextpad=0.4)
+fig.savefig(f'{OUT}/image7.png', bbox_inches='tight'); plt.close(fig)
 print('ok')

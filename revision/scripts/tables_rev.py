@@ -9,8 +9,8 @@ def nb(d):
 def f(x, k=3): return (f'{x:+.{k}f}').replace('-', '−')
 def ci(m, lo, hi, k=3): return f'{f(m,k)} [{f(lo,k)}, {f(hi,k)}]'
 def pv(p): return '<0.001' if p < 0.001 else f'{p:.3f}'
-DS = ['Lung Cancer', 'BreastCancer', 'CervicalCancer']; DSN = {'Lung Cancer': 'Lung Cancer', 'BreastCancer': 'Breast Cancer', 'CervicalCancer': 'Cervical Cancer'}
-MD = ['XGBoost', 'RandomForest', 'SVM', 'LightGBM']; MDN = {'XGBoost': 'XGBoost', 'RandomForest': 'Random Forest', 'SVM': 'SVM', 'LightGBM': 'LightGBM'}
+DS = ['Lung Cancer', 'BreastCancer', 'CervicalCancer']; DSN = {'Lung Cancer': 'Lung', 'BreastCancer': 'Breast', 'CervicalCancer': 'Cervical'}
+MD = ['XGBoost', 'RandomForest', 'SVM', 'LightGBM']; MDN = {'XGBoost': 'XGBoost', 'RandomForest': 'RF', 'SVM': 'SVM', 'LightGBM': 'LightGBM'}
 ALT = ['Grid', 'Random', 'Bayes']
 T = {}
 s = pd.read_csv(f'{Z}/outputs/ALL_results_summary.csv').set_index(['Dataset', 'Model', 'Tuner'])
@@ -25,7 +25,7 @@ for d in DS:
         b = sub.loc[sub['mean'].idxmax()]
         al = s.loc[(d, m, b.tuner)]
         ex = rt[(rt.dataset == d) & (rt.model == m) & (rt.tuner == b.tuner)].iloc[0]
-        rows.append([DSN[d], MDN[m], f'{nt.Mean_F1:.4f} ± {nt.Std_F1:.4f}', b.tuner, f'{al.Mean_F1:.4f} ± {al.Std_F1:.4f}', ci(b['mean'], b.lo, b.hi, 4), pv(b.p_nb_holm3), f'{ex.extra_s:.1f}'])
+        rows.append([DSN[d], MDN[m], f'{nt.Mean_F1:.3f} ± {nt.Std_F1:.3f}', b.tuner, f'{al.Mean_F1:.3f} ± {al.Std_F1:.3f}', ci(b['mean'], b.lo, b.hi, 3), pv(b.p_nb_holm3), f'{ex.extra_s:.1f} [{ex.extra_lo:.1f}, {ex.extra_hi:.1f}]'])
 T['tmain'] = rows
 
 # pooled per dataset: original vs matched
@@ -39,10 +39,10 @@ def pooled(df, d, met):
 lf2 = lf.rename(columns={'Dataset': 'dataset', 'Model': 'model', 'Tuner': 'tuner'})
 rows = []
 for d in DS:
-    for lab, df in [('Original spaces', lf2), ('Matched domain and budget', C)]:
+    for lab, df in [('Original', lf2), ('Matched', C)]:
         r = [DSN[d], lab]
         for met in ['f1', 'mcc', 'recall_min']:
-            m, lo, hi, p = pooled(df, d, met); r.append(ci(m, lo, hi) + (f' (p = {pv(p)})' if p < 0.05 else ''))
+            m, lo, hi, p = pooled(df, d, met); r.append(ci(m, lo, hi) + ('*' if p < 0.05 else ''))
         rows.append(r)
 T['tpool'] = rows
 
@@ -85,7 +85,7 @@ B = pd.read_csv(f'{R}/B_presplit_origtest_results.csv'); B['Run'] = B['run'] + 1
 ps = S4b[S4b.Protocol == 'Leak-PreSplit'].rename(columns={'Dataset': 'dataset', 'Model': 'model', 'Tuner': 'tuner'})
 pc = S4b[S4b.Protocol == 'Leak-PreCV'].rename(columns={'Dataset': 'dataset', 'Model': 'model', 'Tuner': 'tuner'})
 rows = []
-for lab, df in [('Leakage-free (reference)', lf2), ('Pre-split', ps), ('Pre-split, original test', B), ('Pre-CV', pc)]:
+for lab, df in [('Leakage-free', lf2), ('Pre-split', ps), ('Pre-split, original test', B), ('Pre-CV', pc)]:
     fr = {}
     for met in ['f1', 'mcc']:
         k = 0; fav = 0
@@ -93,7 +93,7 @@ for lab, df in [('Leakage-free (reference)', lf2), ('Pre-split', ps), ('Pre-spli
             p = gg.pivot(index='Run', columns='tuner', values=met)[['No-Tuning'] + ALT]
             if stats.friedmanchisquare(*[p[c] for c in p]).pvalue < 0.05:
                 k += 1; fav += int(p.mean().idxmax() == 'No-Tuning')
-        fr[met] = f'{k} of 12' + (f' ({fav} favour no tuning)' if fav else '')
+        fr[met] = f'{k}/12' + (f' ({fav} favour NT)' if fav else '')
     sig = [DSN[d].split()[0] for d in DS if pooled(df, d, 'f1')[3] < 0.05 and pooled(df, d, 'f1')[0] > 0]
     t = df[df.tuner != 'No-Tuning']
     rows.append([lab, fr['f1'], fr['mcc'], ', '.join(sig) if sig else 'none', f'{t.cv_best.mean():.3f}', f'{t.f1.mean():.3f}', f(t.cv_best.mean() - t.f1.mean())])
