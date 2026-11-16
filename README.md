@@ -4,7 +4,27 @@ Code, run-level results and supplementary material for the article:
 
 > T. H. Andika, Widowati, and C. E. Widodo, "Does Hyperparameter Tuning Pay Off on Small, Imbalanced Cancer Data? A Leakage-Controlled Multi-Run Benchmark", *International Journal of Intelligent Engineering and Systems* (accepted, 2026).
 
-**Release v1.2.0 is the version that corresponds to the accepted manuscript.** It is published as an immutable GitHub release. Earlier releases: `v1.0-submission` (first submission) and `v1.1-revision` (first revision).
+> **This default-branch README describes the accepted version of the article.** The default branch is identical to the immutable release **v1.2.1**, which the manuscript cites. Release v1.2.1 contains the same data, scripts and results as v1.2.0 and adds only this clarified README and the notes in the legacy folders. The READMEs of the earlier releases `v1.0-submission` and `v1.1-revision` describe superseded analyses (two leaky protocols, and an interpretation of tuning gains based on imbalance alone). Do not use them to interpret or reproduce the published results.
+
+## Start here: reproduce the published results
+
+```bash
+git clone https://github.com/Thata-ux/leakage-controlled-hpo-cancer-benchmark
+cd leakage-controlled-hpo-cancer-benchmark
+pip install -r requirements.txt
+bash revision/scripts/reproduce_all.sh
+```
+
+This regenerates every table, test, confidence interval and figure of the accepted manuscript from the released run-level results in a few minutes, without the datasets. The outputs are written to `out/` and match `revision/analysis/` and `revision/figures/`. Estimates in the manuscript are rounded to three decimal places from the unrounded values in these files. The full mapping from manuscript elements to scripts is given under [How to reproduce](#how-to-reproduce).
+
+## Which folders are current
+
+| Folder | Status |
+|---|---|
+| `revision/` | **Current.** Revision experiments, analysis scripts, derived tables and the figures of the accepted version |
+| `supplementary/` | Run-level results of the original benchmark (S4, S4b), used as inputs by the current scripts; S1–S3, S5, S6 and S8 are descriptive outputs of the original analysis |
+| `notebook/` | Original benchmark notebook (S7): produces the leakage-free, pre-split and pre-CV run-level results |
+| `results/`, `figures/` | **Superseded.** Statistics and figures of the first submission, kept only for traceability |
 
 The study compares **no tuning, grid search, random search and Bayesian optimization** for **XGBoost, random forest, SVM and LightGBM** on three small, imbalanced cancer datasets (Lung Cancer, Breast Cancer Wisconsin, Cervical Cancer). Every configuration is evaluated over **10 paired runs** (seeds 42–51) under **four evaluation protocols**:
 
@@ -15,7 +35,7 @@ The study compares **no tuning, grid search, random search and Bayesian optimiza
 | **Pre-split, original test** | as pre-split, but tested only on the original test patients of the leakage-free split | S8 block B |
 | **Pre-CV** | correct split, but SMOTE applied to the whole training set before inner cross-validation | S7 (Section 11) |
 
-## Main findings (accepted version)
+## Main findings (accepted version, as in the manuscript)
 
 Inference uses the Nadeau–Bengio corrected resampled t-test with Holm correction. Dataset-level effects average the four classifiers within each run. The **confirmatory** dataset-level analysis is **selection-aware**: in each run, the tuner with the highest inner cross-validated weighted F1 (training data only) is used. Estimates that pick the tuner by its mean test score are reported only as exploratory.
 
@@ -32,9 +52,9 @@ Inference uses the Nadeau–Bengio corrected resampled t-test with Holm correcti
 ├── README.md
 ├── requirements.txt / requirements-colab-full.txt / env_versions.txt
 ├── notebook/S7_Paper_1_v4_NOVELTY.ipynb      original benchmark: leakage-free, pre-split and pre-CV protocols
-├── supplementary/                            S1–S6 and S8 (original analysis; S4/S4b = run-level results)
-├── results/                                  intermediate statistics of the original analysis
-├── figures/                                  figures of the first submission
+├── supplementary/                            S1–S6 and S8 (original analysis; S4/S4b = run-level results used by the current scripts)
+├── results/                                  SUPERSEDED: statistics of the first submission
+├── figures/                                  SUPERSEDED: figures of the first submission
 └── revision/                                 everything added in the revisions (see revision/README_revision.md)
     ├── S8_Revision_IJIES.ipynb               revision experiments, blocks A–H
     ├── results/                              run-level results, predictions, hyperparameters, split and inner-fold indices, sample counts
@@ -78,7 +98,7 @@ pip install -r requirements.txt
 bash revision/scripts/reproduce_all.sh
 ```
 
-The outputs are written to `out/` and can be compared with `revision/analysis/` and `revision/figures/`.
+The outputs are written to `out/` and can be compared with `revision/analysis/` and `revision/figures/`. All estimates in the manuscript are rounded to three decimal places from these unrounded values (for example, the matched-design weighted-F1 gain on Cervical Cancer is 0.01048, reported as +0.010).
 
 | Manuscript element | Produced by |
 |---|---|

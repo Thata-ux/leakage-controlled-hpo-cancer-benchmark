@@ -1,6 +1,6 @@
-# Revisions (IJIES Paper ID 20266848) — releases v1.1-revision and v1.2.0
+# Revisions (IJIES Paper ID 20266848) — current up to release v1.2.1
 
-This folder holds everything added for the major revision. The original benchmark (S7) is unchanged in the repository root.
+This folder holds everything added in the revisions and produces every result of the accepted manuscript. The original benchmark run-level results (S7) are in `../supplementary/` and are used as inputs. To reproduce everything, run `bash revision/scripts/reproduce_all.sh` from the repository root (see the root README).
 
 | Path | Content |
 |---|---|
@@ -14,13 +14,11 @@ Blocks: A = clean rerun of the leakage-free benchmark with full logging; B = pre
 
 Note: the `run` column in `results/` is 0-based (run r in the paper = `run + 1`); seed = 42 + run.
 
-Reproduce the analysis:
+Reproduce the analysis (from the repository root):
 ```
-python scripts/analyze_rev1.py <S7_results_dir> analysis
-python scripts/analyze_rev2.py results <S7_results_dir> analysis
-python scripts/tables_rev.py results <S7_results_dir> analysis tables_rev.json
-python scripts/figs_rev.py results <S7_results_dir> figures
+bash revision/scripts/reproduce_all.sh
 ```
+The script collects the S7 run-level inputs from `supplementary/` (`scripts/prepare_inputs.py`) and then runs every analysis script in turn; see the root README for which script produces which table and figure.
 
 ## Inner-fold indices
 Every tuner used `StratifiedKFold(n_splits=5, shuffle=True, random_state=seed)` on the training rows of a run, in the order given in `split_indices.csv`. `results/inner_fold_indices.csv` lists the validation rows of each fold:
@@ -28,7 +26,7 @@ Every tuner used `StratifiedKFold(n_splits=5, shuffle=True, random_state=seed)` 
 python scripts/make_inner_folds.py results/split_indices.csv results/inner_fold_indices.csv
 ```
 
-## Second revision (v1.2.0): selection-aware analysis
+## Second revision (v1.2.0 and later): selection-aware analysis
 - `scripts/selection_aware2.py` → `analysis/R2_selection_aware_protocols.csv` and `analysis/R2_selection_aware_per_combination.csv`. This is the confirmatory dataset-level analysis: in each run, the tuner with the highest inner cross-validated weighted F1 (training data only) is used for each classifier. It produces Table 5, column 4 of Table 10 and Fig. 2.
 - `scripts/selection_aware.py` → `analysis/R2_selection_aware.csv`. It gives the prespecified-tuner analysis (Holm over 9 contrasts) and the exploratory best-test-mean estimates.
 - `scripts/reproduce_all.sh` reruns every analysis script from the released files; `scripts/prepare_inputs.py` collects the original S7 run-level files from `supplementary/`.
